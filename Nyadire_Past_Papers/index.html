@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nyadire College of Education | Past Papers</title>
+<meta name="description" content="Nyadire College of Education Student Examination Resource Centre">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#063b91;--blue2:#0a58c7;--red:#d90c2f;--ink:#0d2f69;--muted:#64748b;--light:#f6f9ff;--card:#eef4ff;--shadow:0 14px 38px rgba(10,45,105,.12)}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,Arial,sans-serif;color:#17376e;background:#fff;overflow-x:hidden}
+.header{height:108px;background:rgba(255,255,255,.97);display:flex;align-items:center;padding:0 5.5%;position:relative;z-index:10;box-shadow:0 3px 18px rgba(0,0,0,.06)}
+.brand{display:flex;align-items:center;gap:17px;min-width:0}.brand img{width:82px;height:82px;object-fit:contain;margin:0;filter:drop-shadow(0 5px 5px rgba(0,0,0,.08))}.brand-text{line-height:1.05}.brand-text strong{display:block;font-size:28px;color:var(--blue);font-weight:800;letter-spacing:-.8px}.brand-text span{font-size:19px;color:#23477e}
+.nav{margin-left:auto;display:flex;align-items:center;gap:10px}.nav a,.student-btn{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.12);color:#fff;padding:10px 14px;border-radius:9px;font-weight:800;cursor:pointer;margin-left:6px}.student-btn.logged{background:#0b7a4b;border-color:#0b7a4b}.student-btn:hover{background:rgba(255,255,255,.2)}.admin-btn{border:0;background:transparent;text-decoration:none;color:#173d78;font-weight:700;padding:15px 18px;border-radius:14px;display:flex;gap:9px;align-items:center;cursor:pointer;font-size:15px}.nav a.active{background:var(--red);color:#fff;box-shadow:0 7px 18px rgba(217,12,47,.24);position:relative}.nav a.active:after{content:"";position:absolute;left:15%;right:15%;bottom:-9px;height:3px;background:var(--red);border-radius:10px}.admin-btn{border:1px solid #aebed8;margin-left:8px}
+.hero{position:relative;min-height:485px;display:flex;align-items:center;background-image:linear-gradient(90deg,rgba(0,16,50,.56),rgba(0,25,65,.12) 57%,rgba(0,0,0,.04)),url('assets/background-1920x1080.jpg');background-size:cover;background-position:center 52%;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.06),transparent 45%)}.hero-content{position:relative;z-index:2;margin-left:6.5%;max-width:660px;color:#fff;animation:heroIn .9s ease both}.eyebrow{font-size:15px;font-weight:800;color:#e21a3b;letter-spacing:.2px;margin-bottom:22px;text-transform:uppercase}.eyebrow:before{content:"";display:inline-block;width:45px;height:3px;background:var(--red);vertical-align:middle;margin-right:10px;border-radius:3px}.hero h1{font-size:58px;line-height:1.08;margin:0 0 20px;font-weight:800;letter-spacing:-2px;text-shadow:0 4px 18px rgba(0,0,0,.22)}.hero h1 span{display:inline-block;background:#0757bd;padding:3px 13px 7px;border-radius:5px;box-shadow:0 8px 24px rgba(0,55,150,.3)}.hero p{font-size:15px;line-height:1.65;max-width:590px;color:rgba(255,255,255,.92);margin:0 0 23px}.search-row{display:flex;gap:18px;align-items:center}.search{width:305px;height:51px;background:#fff;border-radius:28px;display:flex;align-items:center;padding-left:20px;color:#8a95a8;box-shadow:0 10px 28px rgba(0,0,0,.15);overflow:hidden}.search input{border:0;outline:0;flex:1;font:inherit;color:#3d4e6c;background:transparent}.search button{height:100%;width:56px;border:0;background:var(--red);color:#fff;font-size:21px;cursor:pointer}.explore{height:51px;border:1px solid rgba(255,255,255,.6);border-radius:27px;padding:0 24px;background:#0754b8;color:#fff;font-weight:700;cursor:pointer;box-shadow:0 10px 24px rgba(0,0,0,.13)}.stats{display:flex;gap:0;margin-top:27px}.stat{padding:0 27px 0 0;margin-right:27px;border-right:1px solid rgba(255,255,255,.4)}.stat:last-child{border:0}.stat b{display:block;font-size:21px}.stat span{font-size:12px;color:rgba(255,255,255,.85)}
+.subjects{position:relative;padding:13px 6.3% 20px;background:#fff;overflow:hidden}.subjects:before,.subjects:after{content:"";position:absolute;width:270px;height:140px;border-radius:50%;border:24px solid rgba(17,84,185,.05);transform:rotate(-14deg);pointer-events:none}.subjects:before{left:-150px;bottom:-80px}.subjects:after{right:-150px;top:-80px;border-color:rgba(217,12,47,.05)}.section-head{text-align:center;position:relative;z-index:1}.section-head h2{margin:0;font-size:28px;color:var(--blue);font-weight:800;display:inline-flex;align-items:center;gap:20px}.section-head h2:before,.section-head h2:after{content:"";width:58px;height:3px;background:var(--red);border-radius:4px}.section-head p{margin:5px 0 14px;font-size:12px;color:#7d8ba2}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative;z-index:1}.card{min-height:115px;background:var(--card);border-radius:5px;border-bottom:4px solid var(--blue2);padding:18px 20px;display:grid;grid-template-columns:58px 1fr 20px;gap:13px;align-items:start;transition:.35s cubic-bezier(.2,.8,.2,1);box-shadow:0 6px 18px rgba(10,45,105,.05);cursor:pointer}.card:nth-child(2),.card:nth-child(4){border-color:var(--red);background:#fff0f3}.card:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.icon{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:27px}.card:nth-child(2) .icon,.card:nth-child(4) .icon{background:var(--red)}.card h3{margin:4px 0 6px;font-size:16px;color:#16437f}.card p{margin:0;font-size:11px;line-height:1.45;color:#667a9c}.arrow{font-size:21px;color:#174a91;margin-top:5px}.card:nth-child(2) .arrow,.card:nth-child(4) .arrow{color:var(--red)}
+.footer{height:68px;background:#063889;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 6.5%;font-size:11px}.footer-brand{display:flex;align-items:center;gap:10px;font-weight:700}.footer-brand img{width:45px;height:45px;object-fit:contain}.motto{opacity:.85}.copyright{opacity:.75}
+.modal{position:fixed;inset:0;background:rgba(4,21,52,.58);backdrop-filter:blur(7px);display:none;place-items:center;z-index:50}.modal.show{display:grid}.modal-box{width:min(420px,92vw);background:#fff;border-radius:22px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.3);animation:pop .35s ease}.modal-box h3{margin:0 0 6px;color:var(--blue);font-size:24px}.modal-box p{font-size:13px;color:#71819c}.field{margin:15px 0}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:7px;color:#304d79}.field input{width:100%;padding:13px 14px;border:1px solid #d5deec;border-radius:10px;outline:none}.login{width:100%;padding:13px;border:0;border-radius:10px;background:var(--red);color:#fff;font-weight:800;cursor:pointer}.close{float:right;border:0;background:#eef3fb;border-radius:50%;width:32px;height:32px;cursor:pointer}.toast{position:fixed;right:22px;bottom:22px;background:#102f64;color:#fff;padding:14px 18px;border-radius:12px;display:none;z-index:70;box-shadow:var(--shadow)}
+@keyframes heroIn{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}@keyframes pop{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media(max-width:1050px){.header{padding:0 3%}.brand img{width:72px;height:72px}.brand-text strong{font-size:22px}.brand-text span{font-size:15px}.nav a,.admin-btn{padding:12px 10px;font-size:13px}.grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:46px}}
+@media(max-width:720px){.header{height:auto;min-height:78px;padding:8px 15px}.brand img{width:72px;height:72px;margin:0}.brand-text strong{font-size:17px}.brand-text span{font-size:12px}.nav{gap:2px}.nav a span,.admin-btn span{display:none}.nav a,.admin-btn{padding:10px}.hero{min-height:560px;background-position:60% center}.hero-content{margin:0 22px}.hero h1{font-size:40px}.search-row{flex-direction:column;align-items:stretch}.search{width:100%}.explore{width:100%}.stats{margin-top:22px}.grid{grid-template-columns:1fr}.subjects{padding-left:18px;padding-right:18px}.section-head h2{font-size:23px;gap:9px}.section-head h2:before,.section-head h2:after{width:35px}.footer{height:auto;min-height:80px;padding:10px 18px;gap:10px;flex-wrap:wrap}.motto{display:none}.copyright{margin-left:auto}}
+
+/* Professional motion enhancements */
+.header{animation:headerDrop .75s cubic-bezier(.2,.8,.2,1) both}
+.nav a,.admin-btn,.explore,.search button{position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease}
+.nav a:not(.active):hover,.admin-btn:hover{transform:translateY(-2px);background:#eef4ff}
+.admin-btn:hover{box-shadow:0 8px 20px rgba(10,45,105,.12)}
+.nav a.active:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(217,12,47,.3)}
+.explore:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.search button:hover{transform:scale(1.06);box-shadow:0 0 0 5px rgba(217,12,47,.12)}
+.nav a::after,.admin-btn::after,.explore::after,.search button::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 25%,rgba(255,255,255,.34) 50%,transparent 75%);transform:translateX(-120%);transition:transform .65s ease;pointer-events:none}
+.nav a:hover::after,.admin-btn:hover::after,.explore:hover::after,.search button:hover::after{transform:translateX(120%)}
+.hero{isolation:isolate}
+.hero::before{z-index:-1}
+.hero-content>*{animation:contentRise .85s cubic-bezier(.2,.8,.2,1) both}
+.hero-content .eyebrow{animation-delay:.15s}.hero-content h1{animation-delay:.28s}.hero-content p{animation-delay:.4s}.hero-content .search-row{animation-delay:.52s}.hero-content .stats{animation-delay:.64s}
+.eyebrow{animation:eyebrowPulse 3.5s ease-in-out infinite alternate!important}
+.hero h1 span{animation:titleGlow 4s ease-in-out infinite alternate}
+.stat{transition:transform .3s ease}.stat:hover{transform:translateY(-4px)}
+.card{opacity:0;will-change:transform,opacity}.card.revealed{animation:cardReveal .75s cubic-bezier(.2,.8,.2,1) forwards}.card:nth-child(1).revealed{animation-delay:.04s}.card:nth-child(2).revealed{animation-delay:.14s}.card:nth-child(3).revealed{animation-delay:.24s}.card:nth-child(4).revealed{animation-delay:.34s}
+.icon{transition:transform .35s ease,box-shadow .35s ease}.card:hover .icon{transform:rotate(-6deg) scale(1.08);box-shadow:0 9px 20px rgba(6,59,145,.22)}
+.arrow{transition:transform .3s ease}.card:hover .arrow{transform:translateX(6px)}
+.section-head h2:before,.section-head h2:after{animation:linePulse 2.8s ease-in-out infinite}
+.footer-brand img{transition:transform .3s ease}.footer-brand:hover img{transform:scale(1.04)}
+.modal.show .modal-box{animation:modalIn .42s cubic-bezier(.2,.8,.2,1) both}
+.toast{animation:toastIn .35s ease both}
+.ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.4);transform:scale(0);animation:ripple .65s linear;pointer-events:none}
+@keyframes headerDrop{from{opacity:0;transform:translateY(-16px)}to{opacity:1;transform:none}}
+@keyframes contentRise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes eyebrowPulse{from{opacity:.82}to{opacity:1;text-shadow:0 0 14px rgba(217,12,47,.18)}}
+@keyframes titleGlow{from{box-shadow:0 8px 24px rgba(0,55,150,.28)}to{box-shadow:0 10px 34px rgba(0,95,220,.46)}}
+@keyframes cardReveal{from{opacity:0;transform:translateY(28px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes linePulse{0%,100%{transform:scaleX(1);opacity:.8}50%{transform:scaleX(1.18);opacity:1}}
+@keyframes modalIn{from{opacity:0;transform:translateY(22px) scale(.94)}to{opacity:1;transform:none}}
+@keyframes toastIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes ripple{to{transform:scale(4);opacity:0}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.card{opacity:1!important}}
+
+/* ===== ADMIN DASHBOARD ===== */
+.admin-dashboard{position:fixed;inset:0;background:linear-gradient(135deg,#f5f8ff 0%,#eef4ff 55%,#fff 100%);z-index:100;display:none;overflow:auto}
+.admin-dashboard.show{display:block;animation:dashIn .35s ease both}
+.admin-top{height:82px;background:#063b91;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 6px 24px rgba(6,59,145,.2);position:sticky;top:0;z-index:5}
+.admin-brand{display:flex;align-items:center;gap:12px}.admin-brand img{width:52px;height:52px;object-fit:contain}.admin-brand strong{display:block;font-size:18px}.admin-brand span{font-size:11px;opacity:.8}
+.admin-actions{display:flex;gap:10px}.admin-action{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);color:#fff;border-radius:10px;padding:10px 15px;font-weight:700;cursor:pointer}
+.admin-action:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+.admin-wrap{width:min(1180px,92%);margin:30px auto 50px}.admin-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.admin-heading h2{margin:0;color:#063b91;font-size:30px}.admin-heading p{margin:7px 0 0;color:#667a9c;font-size:13px}
+.add-paper-btn{background:#d90c2f;color:#fff;border:0;border-radius:12px;padding:13px 20px;font-weight:800;cursor:pointer;box-shadow:0 9px 20px rgba(217,12,47,.2)}.add-paper-btn:hover{transform:translateY(-2px);box-shadow:0 12px 25px rgba(217,12,47,.27)}
+.admin-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:22px}.admin-stat{background:#fff;border:1px solid #e2eaf7;border-radius:16px;padding:20px;box-shadow:0 7px 22px rgba(10,45,105,.06);display:flex;align-items:center;gap:15px}.admin-stat-icon{width:48px;height:48px;border-radius:12px;background:#eaf2ff;color:#0754b8;display:grid;place-items:center;font-size:22px}.admin-stat:nth-child(2) .admin-stat-icon{background:#fff0f3;color:#d90c2f}.admin-stat:nth-child(3) .admin-stat-icon{background:#eef8f2;color:#16834b}.admin-stat b{font-size:25px;color:#143d76}.admin-stat span{display:block;color:#7586a1;font-size:11px;margin-top:2px}
+.paper-panel{background:#fff;border:1px solid #e2eaf7;border-radius:18px;box-shadow:0 10px 30px rgba(10,45,105,.07);overflow:hidden}.paper-panel-head{padding:20px 22px;border-bottom:1px solid #e8eef8;display:flex;justify-content:space-between;align-items:center;gap:15px}.paper-panel-head h3{margin:0;color:#153f79;font-size:18px}.paper-search{border:1px solid #d9e2f0;border-radius:9px;padding:10px 12px;outline:0;width:230px}.paper-list{padding:10px 18px 18px}.paper-row{display:grid;grid-template-columns:46px 1fr 170px 115px 92px;gap:14px;align-items:center;padding:14px 6px;border-bottom:1px solid #edf1f7}.paper-row:last-child{border-bottom:0}.paper-icon{width:42px;height:42px;border-radius:11px;background:#edf4ff;color:#0754b8;display:grid;place-items:center;font-size:20px}.paper-name{font-weight:800;color:#23477e;font-size:13px}.paper-meta{font-size:10px;color:#8190a8;margin-top:4px}.paper-tag{font-size:11px;color:#506887;background:#f3f6fb;border-radius:7px;padding:6px 8px;text-align:center}.delete-paper{border:0;background:#fff0f3;color:#c9092b;border-radius:8px;padding:9px 10px;font-weight:800;cursor:pointer}.delete-paper:hover{background:#d90c2f;color:#fff}.empty-papers{text-align:center;padding:55px 20px;color:#7b8ba5}.empty-papers .empty-icon{font-size:42px;margin-bottom:10px}.empty-papers h4{margin:0 0 5px;color:#385781}.empty-papers p{margin:0;font-size:12px}
+.paper-form-modal{position:fixed;inset:0;background:rgba(4,21,52,.62);backdrop-filter:blur(7px);display:none;place-items:center;z-index:130}.paper-form-modal.show{display:grid}.paper-form{width:min(530px,94vw);background:#fff;border-radius:20px;padding:27px;box-shadow:0 30px 80px rgba(0,0,0,.3);animation:modalIn .35s ease}.paper-form h3{margin:0;color:#063b91;font-size:23px}.paper-form .sub{font-size:12px;color:#71819c;margin:5px 0 18px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.form-grid .full{grid-column:1/-1}.paper-form select,.paper-form input[type=text],.paper-form input[type=number],.paper-form input[type=file]{width:100%;padding:12px;border:1px solid #d6e0ee;border-radius:9px;background:#fff;outline:0;font:inherit}.paper-form label{display:block;font-size:11px;font-weight:800;color:#304d79;margin:0 0 6px}.file-note{font-size:10px;color:#8a99ae;margin-top:6px}.form-buttons{display:flex;gap:10px;margin-top:20px}.form-buttons button{flex:1;padding:12px;border-radius:9px;font-weight:800;cursor:pointer}.save-paper{border:0;background:#063b91;color:#fff}.cancel-paper{border:1px solid #d6e0ee;background:#f7f9fc;color:#385781}
+@keyframes dashIn{from{opacity:0}to{opacity:1}}
+@media(max-width:800px){.admin-heading{align-items:stretch;flex-direction:column}.admin-stats{grid-template-columns:1fr}.paper-row{grid-template-columns:40px 1fr 80px}.paper-row .paper-tag{display:none}.paper-search{width:150px}.admin-top{padding:0 4%}.admin-brand span{display:none}}
+
+.student-locked-note{padding:14px 16px;border-radius:12px;background:#eef5ff;color:#315681;font-size:12px;margin-bottom:14px}.student-papers-modal{position:fixed;inset:0;background:rgba(4,21,52,.66);backdrop-filter:blur(7px);display:none;place-items:center;z-index:125}.student-papers-modal.show{display:grid}.student-papers-box{width:min(760px,94vw);max-height:86vh;overflow:auto;background:#fff;border-radius:22px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.28);animation:modalIn .3s ease}.student-head{display:flex;justify-content:space-between;align-items:center;gap:15px;border-bottom:1px solid #e7edf7;padding-bottom:16px;margin-bottom:15px}.student-head h3{margin:0;color:#063b91;font-size:24px}.student-head p{margin:4px 0 0;color:#7a8ba5;font-size:11px}.student-paper{display:grid;grid-template-columns:48px 1fr auto;gap:14px;align-items:center;padding:14px 5px;border-bottom:1px solid #edf1f7}.student-paper:last-child{border-bottom:0}.student-paper-icon{width:44px;height:44px;border-radius:12px;background:#edf4ff;color:#0754b8;display:grid;place-items:center;font-weight:900}.student-paper h4{margin:0;color:#23477e;font-size:14px}.student-paper p{margin:4px 0 0;color:#8190a8;font-size:10px}.paper-actions{display:flex;gap:7px;align-items:center;justify-content:flex-end;flex-wrap:wrap}.open-paper,.download-paper{border:0;border-radius:9px;padding:9px 12px;font-weight:800;cursor:pointer;text-decoration:none;white-space:nowrap}.open-paper{background:#063b91;color:#fff}.open-paper:hover{background:#d90c2f}.download-paper{background:#eaf2ff;color:#063b91}.download-paper:hover{background:#dbe9ff}.student-empty{text-align:center;padding:45px 15px;color:#7b8ba5}.student-empty strong{display:block;color:#385781;margin-bottom:5px}.student-close{border:0;background:#eef3fb;color:#244a7e;width:38px;height:38px;border-radius:50%;font-size:23px;cursor:pointer}.student-close:hover{background:#dfe9f8}@media(max-width:600px){.student-paper{grid-template-columns:42px 1fr}.student-paper .paper-actions{grid-column:2;justify-self:start;justify-content:flex-start}.student-papers-box{padding:20px}}
+
+.paper-viewer-modal{}
+#paperViewerModal{position:fixed;inset:0;background:rgba(4,21,52,.82);display:none;z-index:300;padding:3vh 3vw;box-sizing:border-box}
+#paperViewerModal.show{display:flex;align-items:stretch;justify-content:center}
+.paper-viewer{width:min(1100px,100%);height:100%;background:#fff;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 25px 80px rgba(0,0,0,.4)}
+.paper-viewer-head{min-height:58px;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #dce5f1;color:#12345d}
+.paper-viewer-actions{display:flex;align-items:center;gap:8px}.viewer-download,#closePaperViewer{border:0;border-radius:8px;padding:9px 13px;font-weight:800;text-decoration:none;cursor:pointer}.viewer-download{background:#063b91;color:#fff}#closePaperViewer{background:#eef2f7;color:#24466e}
+#paperViewerFrame{border:0;width:100%;height:calc(100% - 68px);flex:1;background:#f4f6f9}
+
+/* ===== PROFESSIONAL ADMIN UI UPGRADE ===== */
+.admin-dashboard{background:radial-gradient(circle at 15% 0%,rgba(29,93,190,.10),transparent 30%),radial-gradient(circle at 90% 15%,rgba(217,12,47,.07),transparent 25%),#f4f7fc}
+.admin-top{height:88px;background:linear-gradient(115deg,#052b6f 0%,#063b91 55%,#0a56b5 100%);padding:0 4.5%;box-shadow:0 8px 30px rgba(5,43,111,.22)}
+.admin-brand{gap:14px}.admin-brand img{width:56px;height:56px;padding:5px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:14px}.admin-brand strong{font-size:19px;letter-spacing:.1px}.admin-brand span{font-size:11px;color:#dce9ff}
+.admin-actions{gap:8px}.admin-action{border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.09);border-radius:10px;padding:10px 14px}.admin-action:hover{background:rgba(255,255,255,.17)}
+.admin-wrap{width:min(1220px,92%);margin:34px auto 60px}.admin-heading{margin-bottom:26px}.admin-heading h2{font-size:32px;letter-spacing:-.5px}.admin-heading p{font-size:13px}.add-paper-btn{padding:14px 21px;border-radius:11px;background:linear-gradient(135deg,#d90c2f,#b90727);box-shadow:0 10px 24px rgba(217,12,47,.22)}
+.admin-stats{gap:18px;margin-bottom:24px}.admin-stat{min-height:74px;border-radius:16px;padding:19px 20px;background:rgba(255,255,255,.92);box-shadow:0 10px 28px rgba(16,53,104,.07)}.admin-stat-icon{width:50px;height:50px;border-radius:14px}.admin-stat b{font-size:27px}
+.paper-panel{border-radius:18px;box-shadow:0 14px 38px rgba(16,53,104,.08)}.paper-panel-head{padding:20px 23px;background:linear-gradient(180deg,#fff,#fbfdff)}.paper-panel-head h3{font-size:18px}.paper-search{border-radius:10px;background:#f8faff;width:250px}
+.paper-row{padding:16px 6px}.paper-row:hover{background:#fbfdff}.paper-icon{background:linear-gradient(135deg,#eaf2ff,#dfeaff);font-weight:900;font-size:12px}.paper-name{font-size:13px}.delete-paper{transition:.2s}.delete-paper:hover{box-shadow:0 6px 14px rgba(217,12,47,.2)}
+/* Attractive add-paper form */
+.paper-form-modal{background:rgba(2,18,46,.72)}.paper-form{width:min(620px,94vw);padding:0;overflow:hidden;border:1px solid rgba(255,255,255,.65);border-radius:24px;box-shadow:0 35px 100px rgba(0,0,0,.35)}
+.paper-form .form-hero{padding:25px 29px 22px;background:linear-gradient(125deg,#052b6f,#0754b8);color:#fff;position:relative;overflow:hidden}.paper-form .form-hero:after{content:"";position:absolute;width:190px;height:190px;border:25px solid rgba(255,255,255,.07);border-radius:50%;right:-65px;top:-90px}.paper-form .form-hero h3{color:#fff;font-size:24px;margin:0}.paper-form .form-hero .sub{color:#dbe8ff;margin:7px 0 0;max-width:470px;line-height:1.5}.paper-form .form-body{padding:25px 29px 27px;background:#fff}.form-grid{gap:16px}.paper-form label{font-size:10px;text-transform:uppercase;letter-spacing:.65px;color:#526887}.paper-form select,.paper-form input[type=text],.paper-form input[type=number]{padding:13px 14px;border:1px solid #d8e2f0;border-radius:11px;background:#fbfcff;transition:.2s}.paper-form select:focus,.paper-form input[type=text]:focus,.paper-form input[type=number]:focus{border-color:#4380d5;box-shadow:0 0 0 4px rgba(67,128,213,.10);background:#fff}.paper-form input[type=file]{padding:10px;border:1.5px dashed #9fb7d8;border-radius:12px;background:#f7faff;cursor:pointer}.file-note{padding:10px 12px;border-radius:10px;background:#f4f7fb;color:#71819c;font-size:10px;line-height:1.5}.form-buttons{margin-top:22px}.form-buttons button{padding:13px;border-radius:11px}.save-paper{background:linear-gradient(135deg,#063b91,#0759bb);box-shadow:0 9px 20px rgba(6,59,145,.18)}
+.paper-form .close{position:absolute;right:14px;top:12px;z-index:3;width:36px;height:36px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:22px;cursor:pointer}.paper-form .close:hover{background:rgba(255,255,255,.25)}
+@media(max-width:600px){.paper-form .form-hero,.paper-form .form-body{padding-left:20px;padding-right:20px}.admin-wrap{width:94%}.admin-heading h2{font-size:27px}}
+
+/* ===== MODERN PROFESSIONAL ADMIN DASHBOARD ===== */
+.admin-dashboard{background:#f4f7fc;overflow-y:auto}
+.admin-top{height:82px;background:linear-gradient(120deg,#031f52 0%,#063b91 58%,#0b63c9 100%);padding:0 5%;box-shadow:0 10px 34px rgba(3,31,82,.22);border-bottom:1px solid rgba(255,255,255,.12)}
+.admin-brand img{box-shadow:0 7px 20px rgba(0,0,0,.16)}
+.admin-action{transition:.25s ease;backdrop-filter:blur(8px)}
+.admin-action:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.admin-wrap{width:min(1240px,92%);margin:30px auto 54px}
+.admin-welcome{min-height:170px;border-radius:24px;padding:28px 30px;display:flex;align-items:center;justify-content:space-between;gap:25px;position:relative;overflow:hidden;background:linear-gradient(115deg,#052b6f,#0756b9 67%,#0a68cf);box-shadow:0 18px 45px rgba(8,58,139,.18);color:#fff;margin-bottom:28px}
+.admin-welcome:before{content:"";position:absolute;width:280px;height:280px;border:42px solid rgba(255,255,255,.055);border-radius:50%;right:-90px;top:-130px}.admin-welcome:after{content:"";position:absolute;width:170px;height:170px;border:28px solid rgba(217,12,47,.16);border-radius:50%;right:180px;bottom:-120px}
+.welcome-copy,.welcome-badge{position:relative;z-index:1}.welcome-kicker,.heading-kicker{font-size:10px;font-weight:800;letter-spacing:1.5px}.welcome-kicker{color:#cfe2ff;margin-bottom:8px}.admin-welcome h1{margin:0;font-size:27px;letter-spacing:-.6px}.admin-welcome p{margin:8px 0 0;color:#dceaff;font-size:13px;line-height:1.55;max-width:650px}
+.welcome-badge{min-width:215px;padding:14px 16px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.09);border-radius:16px;display:flex;align-items:center;gap:11px;backdrop-filter:blur(10px)}.badge-icon{width:38px;height:38px;border-radius:12px;background:#23a968;display:grid;place-items:center;font-weight:900;box-shadow:0 7px 18px rgba(35,169,104,.25)}.welcome-badge strong{display:block;font-size:12px}.welcome-badge span{display:block;font-size:10px;color:#cfe2ff;margin-top:3px}
+.admin-heading{margin:0 0 18px;align-items:center}.heading-kicker{color:#c11230;margin-bottom:5px}.admin-heading h2{font-size:25px;margin:0;letter-spacing:-.4px}.admin-heading p{margin:5px 0 0;color:#7586a1}.add-paper-btn{display:flex;align-items:center;gap:7px;border:0;color:#fff;font-weight:800;cursor:pointer;transition:.25s ease}.add-paper-btn:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(217,12,47,.28)}
+.admin-stats{grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:28px}.admin-stat{position:relative;overflow:hidden;min-height:112px;padding:19px 20px;border:1px solid #e4ebf6;box-shadow:0 10px 28px rgba(16,53,104,.06);transition:.25s ease}.admin-stat:hover{transform:translateY(-4px);box-shadow:0 17px 36px rgba(16,53,104,.1)}.admin-stat-icon{flex:none}.admin-stat b{font-size:25px;letter-spacing:-.5px}.admin-stat span{font-size:11px;font-weight:700;color:#506684}.admin-stat small{display:block;margin-top:6px;color:#91a0b6;font-size:9px}.stat-accent{position:absolute;right:-20px;bottom:-35px;width:95px;height:95px;border-radius:50%;opacity:.08}.stat-blue .stat-accent{background:#0754b8}.stat-red .stat-accent{background:#d90c2f}.stat-green .stat-accent{background:#16834b}
+.admin-section-label{display:flex;align-items:center;gap:12px;margin:2px 0 11px}.admin-section-label span{font-size:10px;font-weight:800;letter-spacing:1.3px;color:#173d78}.admin-section-label em{font-style:normal;font-size:10px;color:#92a0b4}.admin-section-label:after{content:"";height:1px;background:#dce5f1;flex:1}
+.paper-panel{border:1px solid #e1e8f3;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 15px 42px rgba(16,53,104,.07)}.paper-panel-head{min-height:82px;padding:17px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #edf1f6}.paper-panel-head h3{margin:0;font-size:16px;color:#153c75}.paper-panel-head p{margin:5px 0 0;font-size:10px;color:#8b99ad}.paper-tools{display:flex;align-items:center;gap:10px}.paper-count-pill{padding:8px 11px;border-radius:20px;background:#edf4ff;color:#1652a0;font-size:10px;font-weight:800;white-space:nowrap}.paper-search{height:38px;border:1px solid #dbe4f0!important;background:#f9fbfe!important;outline:0;padding:0 12px!important;transition:.2s}.paper-search:focus{border-color:#5a8ed4!important;box-shadow:0 0 0 4px rgba(67,128,213,.08)}
+.admin-footer-note{margin-top:18px;display:flex;gap:10px;align-items:center;padding:13px 16px;border:1px solid #e4ebf5;background:#fff;border-radius:14px;color:#71819c}.admin-footer-note span{font-size:17px}.admin-footer-note strong{font-size:10px;color:#274a79}.admin-footer-note p{margin:3px 0 0;font-size:9px}
+@media(max-width:800px){.admin-welcome{align-items:flex-start;flex-direction:column;padding:23px}.welcome-badge{width:100%}.admin-stats{grid-template-columns:1fr}.paper-panel-head{align-items:stretch;flex-direction:column}.paper-tools{width:100%}.paper-search{flex:1;width:auto}.admin-section-label em{display:none}}
+@media(max-width:520px){.admin-top{height:76px}.admin-brand strong{font-size:15px}.admin-brand img{width:48px;height:48px}.admin-action{padding:9px 10px}.admin-action span{display:none}.admin-welcome h1{font-size:23px}.admin-heading{align-items:stretch;flex-direction:column}.add-paper-btn{justify-content:center}.paper-tools{flex-direction:column;align-items:stretch}.paper-search{width:100%}}
+
+/* ===== FINAL PROFESSIONAL HOME INTERFACE — inspired by the approved reference layout ===== */
+.header{height:104px;padding:0 6.2%;background:#fff;border-bottom:1px solid #eef2f7;box-shadow:0 4px 18px rgba(19,55,110,.07);}
+.brand{gap:14px}.brand img{width:72px;height:72px}.brand-text strong{font-size:25px;letter-spacing:-.7px}.brand-text span{font-size:17px;color:#3d5579}
+.nav{gap:5px}.nav a{display:flex;align-items:center;gap:7px;padding:12px 16px!important;margin-left:2px!important;border:0!important;border-radius:11px!important;background:transparent!important;color:#213e68!important;font-size:13px;font-weight:800;box-shadow:none!important;text-decoration:none}
+.nav a span{font-size:12px;color:#607594}.nav a.active{background:#d90c2f!important;color:#fff!important;box-shadow:0 7px 18px rgba(217,12,47,.22)!important}.nav a.active span{color:#fff}.nav a.active:after{display:none}.nav a:not(.active):hover{background:#eef4ff!important;color:#063b91!important}.student-btn{display:flex;align-items:center;gap:7px;margin-left:8px!important;padding:12px 15px!important;border:1px solid #d6dfec!important;border-radius:11px!important;background:#fff!important;color:#21446f!important;font-size:13px;font-weight:800;box-shadow:none}.student-btn:hover{background:#eef4ff!important;border-color:#b9cbe4!important}.student-btn.logged{background:#0b7a4b!important;color:#fff!important;border-color:#0b7a4b!important}.admin-btn{margin-left:4px!important;padding:12px 15px!important;border:1px solid #b7c6da!important;border-radius:11px!important;color:#183b69!important;background:#fff!important;font-size:13px!important}.admin-btn:hover{background:#f3f7fd!important}
+.hero{min-height:505px;background-image:linear-gradient(90deg,rgba(3,25,62,.57),rgba(4,31,72,.15) 62%,rgba(0,0,0,.03)),url('assets/background-1920x1080.jpg');background-position:center center}
+.hero-content{margin-left:7.2%;max-width:700px}.eyebrow{margin-bottom:19px;font-size:14px}.hero h1{font-size:59px;line-height:1.04;letter-spacing:-2.3px;margin-bottom:21px}.hero h1 span{padding:5px 15px 8px;border-radius:4px}.hero p{font-size:15px;max-width:620px;margin-bottom:24px}.search-row{gap:15px}.search{width:330px;height:52px}.explore{height:52px;padding:0 25px;border:0;background:#087bc4;border-radius:27px}.stats{margin-top:25px}.stat{padding-right:28px;margin-right:28px}.stat b{font-size:20px}.stat span{font-size:11px}
+.subjects{padding:24px 6.8% 30px}.section-head h2{font-size:27px}.section-head p{font-size:12px;margin-bottom:17px}.grid{gap:18px}.card{min-height:122px;border-radius:12px;padding:18px 19px;background:#f2f6fd;box-shadow:0 8px 22px rgba(10,45,105,.07)}.card:nth-child(2),.card:nth-child(4){background:#fff5f6}.card h3{font-size:15px}.card p{font-size:10.5px}.icon{width:54px;height:54px}.footer{height:74px;padding:0 6.8%}
+@media(max-width:1050px){.header{padding:0 3.5%}.nav a{padding:11px 10px!important}.student-btn,.admin-btn{padding:11px 10px!important}.hero-content{margin-left:5%}}
+@media(max-width:720px){.header{padding:8px 14px;min-height:78px}.brand img{width:62px;height:62px}.brand-text strong{font-size:18px}.brand-text span{font-size:12px}.nav{margin-left:auto}.nav a{padding:9px 8px!important}.student-btn,.admin-btn{padding:9px 9px!important}.nav a span,.student-btn span,.admin-btn span{display:none}.hero{min-height:570px}.hero-content{margin:0 20px}.hero h1{font-size:41px}.subjects{padding-left:18px;padding-right:18px}.grid{grid-template-columns:1fr}}
+
+/* Modern icon system */
+.nav-icon{width:20px;height:20px;display:inline-grid;place-items:center;flex:0 0 20px}
+.nav-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.nav a.active .nav-icon svg{stroke:#fff}
+.student-btn .nav-icon svg,.admin-btn .nav-icon svg{width:17px;height:17px}
+.card .icon svg,.feature-icon svg{width:29px;height:29px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.modern-section{padding:68px 6.3%;background:linear-gradient(180deg,#f8fbff 0%,#fff 100%);position:relative}
+.modern-section .section-head{margin-bottom:30px}
+.paper-intro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1180px;margin:0 auto}
+.paper-feature{background:#fff;border:1px solid #e5ecf6;border-radius:20px;padding:24px;box-shadow:0 12px 30px rgba(10,45,105,.07);transition:.3s;display:flex;gap:16px;align-items:flex-start}
+.paper-feature:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(10,45,105,.12)}
+.feature-icon{width:52px;height:52px;flex:0 0 52px;border-radius:15px;background:#eaf2ff;color:#0754b8;display:grid;place-items:center}
+.paper-feature:nth-child(2) .feature-icon{background:#fff0f3;color:#d90c2f}.paper-feature:nth-child(3) .feature-icon{background:#eaf9f2;color:#0b7a4b}
+.paper-feature h3{margin:1px 0 7px;color:#123e78;font-size:16px}.paper-feature p{margin:0;color:#71819c;font-size:12px;line-height:1.55}
+.paper-cta{margin:30px auto 0;max-width:1180px;background:linear-gradient(110deg,#063b91,#075bc7);border-radius:20px;padding:25px 28px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px;box-shadow:0 16px 35px rgba(6,59,145,.2)}
+.paper-cta h3{margin:0 0 5px;font-size:20px}.paper-cta p{margin:0;color:rgba(255,255,255,.8);font-size:12px}.paper-cta button{border:0;background:#fff;color:#063b91;border-radius:12px;padding:12px 18px;font-weight:800;cursor:pointer}
+@media(max-width:900px){.paper-intro-grid{grid-template-columns:1fr}.paper-cta{flex-direction:column;align-items:flex-start}.paper-cta button{width:100%}}
+/* Student portal dashboard */
+.student-dashboard{display:none;background:linear-gradient(135deg,#063b91,#0a58c7);color:#fff;padding:18px 6.3%;box-shadow:0 8px 24px rgba(6,59,145,.18)}
+body.student-logged-in .student-dashboard{display:block}
+.student-dash-inner{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.student-dash-brand{display:flex;align-items:center;gap:14px}.student-dash-brand img{width:62px;height:62px;object-fit:contain;background:#fff;border-radius:50%;padding:5px;box-shadow:0 6px 16px rgba(0,0,0,.15)}
+.student-dash-brand strong{display:block;font-size:19px}.student-dash-brand span{display:block;font-size:12px;opacity:.82;margin-top:3px}.student-dash-status{display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);padding:10px 15px;border-radius:14px;font-size:12px;font-weight:700}.student-dash-status i{width:9px;height:9px;border-radius:50%;background:#45e49a;box-shadow:0 0 0 5px rgba(69,228,154,.14)}
+@media(max-width:720px){.student-dash-inner{align-items:flex-start}.student-dash-brand img{width:52px;height:52px}.student-dash-status{font-size:10px;padding:8px 10px}.student-dash-brand strong{font-size:16px}}
+/* Admin user management */
+.user-panel{margin-top:28px;background:#fff;border:1px solid #e2e9f4;border-radius:20px;box-shadow:0 12px 30px rgba(10,45,105,.07);overflow:hidden}.user-panel-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px;border-bottom:1px solid #e8eef7}.user-panel-head h3{margin:0;color:#123e78;font-size:18px}.user-panel-head p{margin:5px 0 0;color:#7888a1;font-size:12px}.add-user-btn{border:0;background:#063b91;color:#fff;border-radius:11px;padding:11px 16px;font-weight:800;cursor:pointer}.user-list{padding:8px 18px 18px}.user-row{display:grid;grid-template-columns:1.2fr 1fr 1fr auto;gap:14px;align-items:center;padding:14px 8px;border-bottom:1px solid #edf1f7}.user-row:last-child{border-bottom:0}.user-main{display:flex;align-items:center;gap:11px}.user-avatar{width:40px;height:40px;border-radius:12px;background:#eef4ff;color:#063b91;display:grid;place-items:center;font-weight:800}.user-main strong{display:block;color:#173d78;font-size:13px}.user-main span,.user-meta{display:block;color:#8290a6;font-size:11px;margin-top:3px}.remove-user{border:1px solid #f1c4cd;background:#fff0f3;color:#c51635;border-radius:9px;padding:8px 11px;font-weight:800;cursor:pointer}.empty-users{padding:24px;text-align:center;color:#7d8ba2;font-size:13px}.user-form-modal{position:fixed;inset:0;background:rgba(4,21,52,.58);backdrop-filter:blur(7px);display:none;place-items:center;z-index:250}.user-form-modal.show{display:grid}.user-form-box{width:min(520px,92vw);background:#fff;border-radius:22px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.3)}.user-form-box h3{margin:0 0 6px;color:#063b91;font-size:23px}.user-form-box .sub{font-size:12px;color:#7a8aa3;margin-bottom:18px}.user-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.user-form-grid .full{grid-column:1/-1}.user-form-grid label{display:block;font-size:11px;font-weight:800;color:#304d79;margin-bottom:6px}.user-form-grid input,.user-form-grid select{width:100%;padding:12px;border:1px solid #d5deec;border-radius:10px;outline:0}.user-form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}.cancel-user{border:0;background:#eef3fb;color:#304d79;padding:11px 16px;border-radius:10px;font-weight:700;cursor:pointer}.save-user{border:0;background:#d90c2f;color:#fff;padding:11px 18px;border-radius:10px;font-weight:800;cursor:pointer}@media(max-width:720px){.user-row{grid-template-columns:1fr auto}.user-meta{display:none}.user-form-grid{grid-template-columns:1fr}}
+/* Hide the public Past Papers information section after student login. Students access papers through the secure department paper window. */
+body.student-logged-in #papers{display:none!important;}
+body.student-logged-in .footer{display:none!important;}
+
+/* Intake and student management */
+.intake-choice-btn{border:1px solid #dce6f3;background:linear-gradient(135deg,#fff,#f5f9ff);border-radius:16px;padding:18px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:5px;transition:.2s}.intake-choice-btn:hover{transform:translateY(-2px);border-color:#0754b8;box-shadow:0 10px 24px rgba(7,84,184,.12)}.intake-choice-btn span{font-size:25px}.intake-choice-btn b{font-size:15px;color:#123e78}.intake-choice-btn small{font-size:11px;color:#7a8aa3}.intake-view-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 10px;border-bottom:1px solid #e8eef7}.intake-view-row:last-child{border-bottom:0}.intake-view-id{font-weight:800;color:#123e78}.intake-view-meta{font-size:11px;color:#7a8aa3}.intake-view-remove{border:1px solid #f1c4cd;background:#fff0f3;color:#c51635;border-radius:9px;padding:7px 10px;font-weight:800;cursor:pointer}
+.intake-panel{margin-top:28px;background:#fff;border:1px solid #e2e9f4;border-radius:20px;box-shadow:0 12px 30px rgba(10,45,105,.07);overflow:hidden}.intake-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px;border-bottom:1px solid #e8eef7}.intake-head h3{margin:0;color:#123e78;font-size:18px}.intake-head p{margin:5px 0 0;color:#7888a1;font-size:12px}.intake-actions{display:flex;gap:8px}.intake-btn{border:0;background:#063b91;color:#fff;border-radius:11px;padding:11px 15px;font-weight:800;cursor:pointer}.intake-list{padding:16px 18px 20px;display:grid;gap:12px}.intake-card{border:1px solid #e4ebf5;border-radius:15px;background:#fbfcff;overflow:hidden}.intake-card-head{display:flex;justify-content:space-between;align-items:center;padding:15px 16px;background:linear-gradient(90deg,#f3f7ff,#fff)}.intake-card-head strong{color:#123e78}.intake-card-head span{font-size:11px;color:#7587a2}.intake-card-body{padding:10px 14px}.intake-type{display:inline-flex;align-items:center;gap:6px;padding:6px 9px;border-radius:999px;font-size:10px;font-weight:800;background:#eaf2ff;color:#0754b8;margin:4px 5px 4px 0}.intake-type.ecd{background:#fff0f3;color:#c51635}.intake-students{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}.intake-student-chip{padding:7px 10px;border:1px solid #e1e8f3;border-radius:9px;background:#fff;font-size:11px;color:#35557e}.intake-empty{padding:12px;color:#8290a6;font-size:12px}.intake-form-modal{position:fixed;inset:0;background:rgba(4,21,52,.58);backdrop-filter:blur(7px);display:none;place-items:center;z-index:260}.intake-form-modal.show{display:grid}.intake-form-box{width:min(560px,92vw);background:#fff;border-radius:22px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.3)}.intake-form-box h3{margin:0 0 6px;color:#063b91;font-size:23px}.intake-form-box .sub{font-size:12px;color:#7a8aa3;margin-bottom:18px}.intake-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.intake-form-grid .full{grid-column:1/-1}.intake-form-grid label{display:block;font-size:11px;font-weight:800;color:#304d79;margin-bottom:6px}.intake-form-grid input,.intake-form-grid select{width:100%;padding:12px;border:1px solid #d5deec;border-radius:10px;outline:0;box-sizing:border-box}.type-choice{display:grid;grid-template-columns:1fr 1fr;gap:10px}.type-choice label{border:1px solid #d5deec;border-radius:10px;padding:12px;cursor:pointer;text-align:center}.type-choice input{width:auto!important;margin-right:6px}.type-choice label:has(input:checked){border-color:#0754b8;background:#eef5ff;color:#0754b8}.intake-form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}.delete-intake{border:1px solid #f1c4cd;background:#fff0f3;color:#c51635;border-radius:9px;padding:7px 10px;font-weight:800;cursor:pointer}.sort-note{font-size:11px;color:#7888a1;margin:0 18px 12px}.auto-id{display:flex;gap:8px}.auto-id input{flex:1}.auto-id button{border:0;background:#eef4ff;color:#063b91;border-radius:10px;padding:0 12px;font-weight:800;cursor:pointer}@media(max-width:720px){.intake-head{align-items:stretch;flex-direction:column}.intake-form-grid{grid-template-columns:1fr}.intake-form-grid .full{grid-column:auto}.type-choice{grid-template-columns:1fr}.intake-actions{width:100%}.intake-btn{flex:1}}
+
+
+/* Intake year-centred dashboard layout */
+.intake-year-group{background:#fff;border:1px solid #e2e9f4;border-radius:20px;padding:18px 20px 22px;box-shadow:0 10px 26px rgba(10,45,105,.06);margin-bottom:16px}.intake-year-title{text-align:center;font-size:28px;font-weight:900;color:#063b91;line-height:1;margin:4px 0 18px}.intake-year-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:stretch}.intake-program-card{border:1px solid #e4ebf5;border-radius:16px;background:#fbfcff;overflow:hidden}.intake-program-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px 0}.intake-program-head strong{font-size:20px;color:#123e78}.intake-program-body{padding:10px 12px 14px}.intake-program-body .intake-choice-btn{min-height:112px}.intake-program-head .delete-intake{font-size:10px;padding:6px 9px}@media(max-width:650px){.intake-year-grid{grid-template-columns:1fr}.intake-year-title{font-size:24px}}
+/* Refined intake UI */
+.intake-card-head span{display:none}.intake-choice-btn{min-height:128px;justify-content:center}.modern-intake-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;margin-bottom:4px}.modern-intake-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ecd-choice .modern-intake-icon{background:#fff0f3;color:#c51635}.junior-choice .modern-intake-icon{background:#eaf2ff;color:#0754b8}.intake-view-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px}.intake-view-actions{display:flex;align-items:center;gap:8px}.add-intake-student-top{border:0;background:#063b91;color:#fff;border-radius:11px;padding:11px 15px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:0 8px 18px rgba(6,59,145,.16)}.add-intake-student-top span{font-size:18px;line-height:1}.intake-view-close{position:static!important}.intake-view-box .sub{margin-bottom:0}@media(max-width:650px){.intake-view-top{align-items:flex-start}.add-intake-student-top{padding:9px 11px;font-size:11px}.intake-view-actions{gap:5px}}
+
+.announcement-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;max-width:1180px;margin:20px auto 28px;padding:0 5%}.announcement-card{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid #dfe8f5;border-left:4px solid #d90c2f;border-radius:14px;padding:18px;box-shadow:0 8px 22px rgba(10,45,105,.07)}.announcement-icon{flex:0 0 38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#eaf1ff;color:#063b91;font-weight:800}.announcement-card h3{margin:0 0 7px;color:#063b91;font-size:16px}.announcement-card p{margin:0;color:#5e7191;line-height:1.55;font-size:13px}.announcement-date{display:block;margin-top:9px;color:#7b8ba5;font-size:11px}.announcement-admin{background:#fff;border:1px solid #e0e8f5;border-radius:16px;padding:20px;margin:24px 0;box-shadow:0 7px 22px rgba(10,45,105,.05)}.announcement-admin-grid{display:grid;grid-template-columns:1fr 2fr auto;gap:12px;align-items:end}.announcement-admin input,.announcement-admin textarea{width:100%;border:1px solid #d5deec;border-radius:10px;padding:12px;font:inherit}.announcement-admin textarea{min-height:80px;resize:vertical}.announcement-admin label{display:block;font-size:12px;font-weight:700;margin-bottom:6px;color:#304d79}.announcement-admin-item{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #edf1f7}.announcement-admin-item:last-child{border-bottom:0}.announcement-admin-item button{border:0;border-radius:8px;padding:8px 11px;background:#fff0f3;color:#b10c2b;font-weight:700;cursor:pointer}
+@media(max-width:720px){.announcement-admin-grid{grid-template-columns:1fr}.announcement-admin-item{align-items:flex-start;flex-direction:column}}
+
+/* Animated professional announcements panel */
+.announcement-list{overflow:hidden;animation:announcementPanelIn .7s ease both}
+@keyframes announcementPanelIn{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+.announcement-card{position:relative;animation:announcementCardIn .65s cubic-bezier(.2,.8,.2,1) both;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.announcement-card:nth-child(2){animation-delay:.08s}.announcement-card:nth-child(3){animation-delay:.16s}
+.announcement-card:hover{transform:translateY(-5px);box-shadow:0 18px 35px rgba(10,45,105,.14);border-color:#b8d0f5}
+@keyframes announcementCardIn{from{opacity:0;transform:translateX(-25px)}to{opacity:1;transform:translateX(0)}}
+.announcement-badge{display:inline-flex;background:#d90c2f;color:#fff;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800;margin-bottom:7px;animation:pulseBadge 2s infinite}
+@keyframes pulseBadge{0%,100%{box-shadow:0 0 0 0 rgba(217,12,47,.25)}50%{box-shadow:0 0 0 7px rgba(217,12,47,0)}}
+.latest-announcement{border-left-width:6px;background:linear-gradient(135deg,#fff,#f4f8ff)}
+.pdf-action a{display:inline-flex;align-items:center;gap:6px;background:#eaf1ff;color:#063b91;padding:10px 14px;border-radius:10px;font-weight:800;text-decoration:none;transition:all .25s ease}
+.pdf-action a:hover{background:#063b91;color:white;transform:translateY(-2px);box-shadow:0 8px 18px rgba(6,59,145,.2)}
+@media(prefers-reduced-motion:reduce){.announcement-card,.announcement-list,.announcement-badge{animation:none;transition:none}}
+</style><style>#adminDashboard:not(.show) .cancel-user,#adminDashboard:not(.show) .save-user{display:none!important}</style>
+
+<style id="modern-home-refresh">
+/* Modern, cleaner home page: keep the campus photograph visible */
+.header{height:92px;padding:0 clamp(18px,4.5vw,68px);gap:22px}
+.brand{gap:13px}.brand img{width:68px;height:68px}
+.brand-text strong{font-size:24px;letter-spacing:-.7px}.brand-text span{font-size:15px}
+.nav{gap:5px}.nav a,.admin-btn,.student-btn{border-radius:12px;font-size:13px;padding:11px 13px}
+.nav a{display:flex;align-items:center;gap:7px;text-decoration:none}
+.nav-icon{display:inline-flex;width:18px;height:18px;align-items:center;justify-content:center;flex-shrink:0}
+.nav-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.hero{min-height:500px;background-image:linear-gradient(90deg,rgba(3,20,54,.82) 0%,rgba(3,20,54,.62) 34%,rgba(3,20,54,.20) 59%,rgba(3,20,54,.02) 100%),url('assets/background-1920x1080.jpg');background-position:center center}
+.hero:before{background:linear-gradient(0deg,rgba(2,20,52,.17),transparent 45%)}
+.hero-content{margin-left:clamp(24px,6.2vw,94px);max-width:550px;padding:35px 0}
+.eyebrow{font-size:11px;letter-spacing:1.5px;margin-bottom:17px;color:#ff526d}
+.eyebrow:before{width:32px;height:2px}
+.hero h1{font-size:clamp(36px,4.1vw,52px);line-height:1.08;letter-spacing:-1.8px;margin-bottom:17px}
+.hero h1 span{background:transparent;padding:0 0 4px;border-radius:0;box-shadow:none;border-bottom:3px solid #e51b3e;text-shadow:0 3px 18px rgba(0,0,0,.2)}
+.hero p{font-size:14px;line-height:1.75;max-width:475px;margin-bottom:22px}
+.search-row{gap:11px;flex-wrap:wrap}.search{width:min(300px,100%);height:48px;border-radius:14px}
+.search button{width:49px}.explore{height:48px;border-radius:14px;padding:0 18px;background:#fff;color:#073b8b;border:1px solid rgba(255,255,255,.8)}
+.stats{margin-top:25px}.stat{padding-right:20px;margin-right:20px}.stat b{font-size:20px}.stat span{font-size:11px}
+.subjects{padding-top:35px;padding-bottom:38px}
+.section-head h2{letter-spacing:-.5px}
+.card{border-radius:18px;transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(10,45,105,.14)}
+.card .icon{border-radius:15px}
+.footer{border-top:1px solid #e8eef7}
+@media(max-width:980px){
+ .header{height:auto;min-height:82px;padding:10px 20px;align-items:center;flex-wrap:wrap}
+ .brand img{width:58px;height:58px}.brand-text strong{font-size:20px}.brand-text span{font-size:13px}
+ .nav{margin-left:auto;gap:3px;flex-wrap:wrap;justify-content:flex-end}
+ .nav a,.admin-btn,.student-btn{padding:9px 10px;font-size:12px}
+ .hero{min-height:490px;background-position:60% center;background-image:linear-gradient(90deg,rgba(3,20,54,.86) 0%,rgba(3,20,54,.68) 47%,rgba(3,20,54,.22) 100%),url('assets/background-1920x1080.jpg')}
+ .hero-content{max-width:510px}
+}
+@media(max-width:720px){
+ .header{justify-content:space-between}.brand{gap:9px}.brand img{width:50px;height:50px}
+ .brand-text strong{font-size:17px}.brand-text span{font-size:11px}
+ .nav{width:100%;margin:7px 0 0;justify-content:space-between;gap:4px}
+ .nav a,.admin-btn,.student-btn{margin:0;padding:9px 8px;border-radius:10px}
+ .nav a span:not(.nav-icon),.admin-btn span:not(.nav-icon),.student-btn span:not(.nav-icon){display:inline}
+ .nav-icon{width:15px;height:15px}.nav-icon svg{width:15px;height:15px}
+ .hero{min-height:510px;background-position:62% center;background-image:linear-gradient(90deg,rgba(3,20,54,.88),rgba(3,20,54,.65) 70%,rgba(3,20,54,.34)),url('assets/background-1920x1080.jpg')}
+ .hero-content{margin:0 22px;padding:35px 0;max-width:100%}
+ .hero h1{font-size:clamp(35px,10vw,46px);letter-spacing:-1.2px}
+ .hero p{font-size:13px;max-width:440px}
+ .search-row{align-items:stretch}.search{width:100%}.explore{width:100%}
+ .stats{gap:0;justify-content:flex-start}.stat{padding-right:13px;margin-right:13px}.stat b{font-size:18px}.stat span{font-size:10px}
+ .subjects{padding:28px 18px 30px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
+}
+</style>
+
+</head>
+<body>
+<header class="header">
+  <div class="brand"><img src="assets/college-logo-new.png" alt="Nyadire College of Education logo"><div class="brand-text"><strong>Nyadire College</strong><span>of Education</span></div></div>
+  <nav class="nav" aria-label="Main navigation">
+<a href="#home" class="active"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.2a1 1 0 0 1-1 1h-5.2v-6.4H9.2V21H4a1 1 0 0 1-1-1z"/></svg></span>Home</a>
+<a href="#subjects"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></span>Subjects</a>
+<a href="#announcements"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v12H8l-4 3zM7 9h10M7 13h7"/></svg></span>Announcements</a>
+<button class="student-btn" id="studentBtn"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20c.8-3.5 3-5.2 6.5-5.2s5.7 1.7 6.5 5.2"/></svg></span>Student Login</button>
+<button class="admin-btn" id="adminBtn"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 20 6v5.5c0 4.7-3.2 7.8-8 9.5-4.8-1.7-8-4.8-8-9.5V6zM9.5 12l1.7 1.7 3.6-3.6"/></svg></span>Admin</button>
+</nav>
+</header>
+<section class="student-dashboard" id="studentDashboard">
+  <div class="student-dash-inner">
+    <div class="student-dash-brand"><img src="assets/college-logo-new.png" alt="Nyadire College logo"><div><strong>Nyadire Student Portal</strong><span>Student Examination Resource Centre</span></div></div>
+    <div class="student-dash-status"><i></i> Secure student session active</div>
+  </div>
+</section>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">STUDENT EXAMINATION RESOURCE CENTRE</div>
+    <h1>Past Papers.<br><span>Better Preparation.</span></h1>
+    <p>Access Nyadire College of Education past examination papers quickly, search by subject or year, and prepare with confidence.</p>
+    <div class="search-row"><div class="search"><span style="font-size:20px;color:#d90c2f;margin-right:9px">⌕</span><input id="searchInput" placeholder="Find an Examination"><button id="searchBtn">→</button></div><button class="explore" onclick="document.querySelector('#subjects').scrollIntoView()">Explore Subjects⌄</button><button class="explore" onclick="document.querySelector(\'#announcements\').scrollIntoView({behavior:\'smooth\'})">View Announcements</button></div>
+    <div class="stats"><div class="stat"><b id="sitePaperCount">0</b><span>Past Papers</span></div><div class="stat"><b>21</b><span>Subjects</span></div><div class="stat"><b>4</b><span>Departments</span></div></div>
+  </div>
+</section>
+<section class="subjects" id="subjects">
+  <div class="section-head"><h2>Subjects</h2><p>Select a department to view available subjects.</p></div>
+  <div class="grid" id="subjectGrid">
+    <article class="card" data-subject="Natural Science"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-9V3"/><path d="M8 15h8M7 18h10"/></svg></div><div><h3>Natural Science</h3><p>Computer Science, Mathematics,<br>Biology, Physics, Chemistry,<br>Agriculture</p></div><div class="arrow">→</div></article>
+    <article class="card" data-subject="Humanities"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v17H6a2 2 0 0 0-2 2z"/><path d="M7 7h8M7 11h7M7 15h5"/></svg></div><div><h3>Humanities</h3><p>English, Shona, Ndebele,<br>Disaster Risk Management, Life Skills,<br>Entrepreneurship, Citizenship and<br>Communication Skills</p></div><div class="arrow">→</div></article>
+    <article class="card" data-subject="P.E and Arts"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M8 7c1.2-1.8 2.4-2.6 4-2.6S14.8 5.2 16 7M6 20h12M7 10c1.4 1.2 2.8 1.8 5 1.8s3.6-.6 5-1.8"/></svg></div><div><h3>P.E and Arts</h3><p>Music, Art, P.E.</p></div><div class="arrow">→</div></article>
+    <article class="card" data-subject="Educational Foundation"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 15.5c1.2-1.2 2.7-2 3.5-3.7.8 1.7 2.3 2.5 3.5 3.7M9 8.5h6M12 6v3"/></svg></div><div><h3>Educational Foundation</h3><p>Psychology, Sociology,<br>Philosophy, Legal Framework</p></div><div class="arrow">→</div></article>
+  </div>
+</section>
+<section class="modern-section" id="announcements">
+  <div class="section-head"><h2>Announcements</h2><p>Latest notices and updates from Nyadire College of Education</p><a href="#announcements" class="explore" style="display:inline-flex;margin-top:10px;text-decoration:none">View All Announcements ↓</a></div>
+  <div id="publicAnnouncements" class="announcement-list"><article class="announcement-card"><div class="announcement-icon">i</div><div><h3>College Announcements</h3><p>There are no announcements at the moment. Please check again later.</p></div></article></div>
+</section>
+<footer class="footer"><div class="footer-brand"><img src="assets/college-logo-new.png" alt="">Nyadire College<br>of Education</div><div class="motto">Diligence &nbsp;|&nbsp; Integrity &nbsp;|&nbsp; Competence &nbsp;|&nbsp; Morality</div><div class="copyright">© 2026 Nyadire College of Education. All rights reserved.</div></footer>
+
+<!-- ADMIN DASHBOARD -->
+<section class="admin-dashboard" id="adminDashboard">
+  <div class="admin-top">
+    <div class="admin-brand">
+      <img src="assets/college-logo-new.png" alt="Nyadire College logo">
+      <div><strong>Nyadire Admin Portal</strong><span>Past Examination Papers • Management Centre</span></div>
+    </div>
+    <div class="admin-actions">
+      <button class="admin-action" id="viewSite">↩ <span>View Website</span></button>
+      <button class="admin-action" id="logoutAdmin">⇥ <span>Logout</span></button>
+    </div>
+  </div>
+  <div class="admin-wrap">
+    <div class="admin-welcome">
+      <div class="welcome-copy"><div class="welcome-kicker">ADMINISTRATION • SECURE AREA</div><h1>Good to see you, Administrator.</h1><p>Manage Nyadire College past examination papers from one professional workspace.</p></div>
+      <div class="welcome-badge"><div class="badge-icon">✓</div><div><strong>Portal Status</strong><span>Ready for management</span></div></div>
+    </div>
+    <div class="admin-heading">
+      <div><div class="heading-kicker">RESOURCE CENTRE</div><h2>Dashboard Overview</h2><p>Monitor your paper library and keep examination resources organised.</p></div>
+      <button class="add-paper-btn" id="openAddPaper">＋ <span>Add Past Paper</span></button>
+    </div>
+    <div class="admin-stats">
+      <div class="admin-stat stat-blue"><div class="admin-stat-icon">▤</div><div><b id="totalPapers">0</b><span>Total Past Papers</span><small>Available in the portal</small></div><div class="stat-accent"></div></div>
+      <div class="admin-stat stat-red"><div class="admin-stat-icon">◈</div><div><b id="totalSubjects">0</b><span>Subjects / Areas</span><small>Across all departments</small></div><div class="stat-accent"></div></div>
+      <div class="admin-stat stat-green"><div class="admin-stat-icon">✓</div><div><b>ACTIVE</b><span>Management Access</span><small>Administrator session</small></div><div class="stat-accent"></div></div>
+      <div class="admin-stat stat-purple"><div class="admin-stat-icon">♙</div><div><b id="totalStudents">0</b><span>Student Accounts</span><small>Can sign in to the portal</small></div><div class="stat-accent"></div></div>
+    </div>
+    <div class="admin-section-label"><span>LIBRARY MANAGEMENT</span><em>Search, review and manage uploaded papers</em></div>
+    <div class="paper-panel">
+      <div class="paper-panel-head"><div><h3>Past Examination Papers</h3><p>All papers currently available to students</p></div><div class="paper-tools"><span class="paper-count-pill" id="paperCountPill">0 papers</span><input class="paper-search" id="paperSearch" placeholder="⌕  Search papers..."></div></div>
+      <div class="paper-list" id="paperList"></div>
+    </div>
+    <div class="admin-section-label" style="margin-top:34px"><span>INTAKE MANAGEMENT</span><em>Create intakes and organise Junior / ECD students</em></div>
+    <div class="intake-panel">
+      <div class="intake-head"><div><h3>Student Intakes</h3><p>Select an intake, then choose <strong>Junior</strong> or <strong>ECD</strong> to view and manage those students.</p></div><div class="intake-actions"><button class="intake-btn" id="openAddIntake">＋ Add Intake</button></div></div>
+      <p class="sort-note">Students are automatically displayed in ascending Student ID order.</p>
+      <div class="intake-list" id="intakeList"></div>
+    </div>
+    <div class="admin-section-label" style="margin-top:34px"><span>USER MANAGEMENT</span><em>Add, review and remove student accounts</em></div>
+    <div class="user-panel">
+      <div class="user-panel-head"><div><h3>Student Accounts</h3><p>View and remove student accounts. Add students from their Intake and programme.</p></div><button class="intake-btn" id="viewAllAccountsByIntake" type="button">▦ View All Accounts by Intake</button></div>
+      <div class="user-list" id="userList"></div>
+    </div>
+
+    <section class="announcement-admin" id="announcementAdminPanel">
+      <div class="paper-panel-head"><div><h3>Announcements Management</h3><p>Create notices that appear in the Announcements section on the home page.</p></div></div>
+      <div class="announcement-admin-grid" style="margin:16px 0"><div><label for="announcementTitle">Announcement title</label><input id="announcementTitle" maxlength="120" placeholder="e.g. Semester examination timetable"></div><div><label for="announcementBody">Announcement details</label><textarea id="announcementBody" maxlength="2000" placeholder="Type the announcement for students"></textarea></div><div style="grid-column:1/-1"><label for="announcementPdf">Attach PDF file (optional)</label><input id="announcementPdf" type="file" accept="application/pdf,.pdf"><small style="display:block;color:#71819c;margin-top:5px">Choose a PDF notice or timetable (maximum 10 MB).</small></div><button type="button" class="add-paper-btn" id="publishAnnouncement">＋ Publish</button></div>
+      <div id="adminAnnouncementsList"></div>
+    </section>
+
+    <section id="ultimateAdminPanel" style="display:none;margin:24px 0;padding:20px;border:2px solid #c8a54b;border-radius:14px;background:#fffdf5"><h2 style="margin:0 0 8px;color:#17366c">Ultimate Admin Security</h2><p>Change the standard administrator password. This section is visible only during an Ultimate Admin session.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;align-items:end"><div><label>Standard admin username</label><input value="admin" readonly style="width:100%;padding:10px"></div><div><label>Current standard admin password</label><input id="standardAdminPasswordView" readonly style="width:100%;padding:10px"></div><div><label>New standard admin password</label><input id="newStandardAdminPassword" type="password" autocomplete="new-password" style="width:100%;padding:10px"></div><button class="login" id="updateStandardAdminPassword" type="button">Update Standard Password</button></div></section><div class="admin-footer-note"><span>🔒</span><div><strong>Administrator workspace</strong><p>Changes made here are reflected in the student examination resource centre.</p></div></div>
+  </div>
+</section>
+
+
+<div class="student-papers-modal" id="studentPapersModal"><div class="student-papers-box"><div class="student-head"><div><h3 id="studentPapersTitle">Past Examination Papers</h3><p id="studentPapersSubtitle">Available papers for this department</p></div><button class="student-close" id="closeStudentPapers">×</button></div><div id="studentPaperList"></div></div></div>
+<div class="intake-form-modal" id="intakeFormModal"><div class="intake-form-box"><button class="close" id="closeIntakeForm">×</button><h3>Add Year Intakes</h3><div class="sub">Each year has two programme intakes: one ECD and one Junior. Example: 2024 — ECD 20, Junior 31.</div><div class="intake-form-grid"><div class="full"><label>Intake Year</label><input id="newIntakeYear" inputmode="numeric" maxlength="4" placeholder="e.g. 2024"></div><div><label>ECD Intake Number</label><input id="newEcdIntakeNumber" inputmode="numeric" placeholder="e.g. 20"></div><div><label>Junior Intake Number</label><input id="newJuniorIntakeNumber" inputmode="numeric" placeholder="e.g. 31"></div></div><div class="intake-form-actions"><button class="cancel-user" id="cancelIntake">Cancel</button><button class="save-user" id="saveIntake">＋ Add Year Intakes</button></div></div></div>
+<div class="intake-form-modal" id="intakeViewModal"><div class="intake-form-box intake-view-box" style="width:min(760px,94vw)"><div class="intake-view-top"><div><h3 id="intakeViewTitle">Intake 31 — Junior</h3><div class="sub" id="intakeViewSub">Students in this intake and programme, sorted by Student ID.</div></div><div class="intake-view-actions"><button class="add-intake-student-top" id="bulkFromIntakeView"><span>⇧</span> Bulk Upload</button><button class="add-intake-student-top" id="addFromIntakeView"><span>＋</span> Add Student</button><button class="close intake-view-close" id="closeIntakeView">×</button></div></div><div id="intakeViewList" style="max-height:52vh;overflow:auto"></div></div></div>
+<div class="intake-form-modal" id="intakeStudentModal"><div class="intake-form-box"><button class="close" id="closeIntakeStudent">×</button><h3>Add Student to Intake</h3><div class="sub">Choose the intake and programme. Junior IDs must start with 24; ECD IDs must start with E24.</div><div class="intake-form-grid"><div><label>Intake</label><select id="intakeStudentIntake"></select></div><div><label>Student Type</label><div class="type-choice"><label><input type="radio" name="studentType" value="Junior" checked> Junior</label><label><input type="radio" name="studentType" value="ECD"> ECD</label></div></div><div class="full"><label>Student ID / Username</label><div class="auto-id"><input id="intakeStudentId" placeholder="e.g. 24-31-70"><button type="button" id="suggestStudentId">Next ID</button></div></div><div><label>Password</label><input id="intakeStudentPassword" type="password" placeholder="Enter password"></div><div><label>Full Name (optional)</label><input id="intakeStudentName" placeholder="Student name"></div></div><div class="intake-form-actions"><button class="cancel-user" id="cancelIntakeStudent">Cancel</button><button class="save-user" id="saveIntakeStudent">＋ Add Student</button></div></div></div>
+
+<div class="intake-form-modal" id="allAccountsModal"><div class="intake-form-box" style="width:min(900px,94vw)"><div class="intake-view-top"><div><h3>All Student Accounts by Intake</h3><div class="sub">View account details by intake. Use Remove to delete an account, just as in Student Accounts.</div></div><button class="close" id="closeAllAccounts" type="button">×</button></div><div id="allAccountsList" style="max-height:65vh;overflow:auto"></div></div></div>
+
+<div class="paper-form-modal" id="paperFormModal">
+  <div class="paper-form">
+    <button class="close" id="closePaperForm">×</button>
+    <div class="form-hero"><h3>Add Past Examination Paper</h3><div class="sub">Organise a new examination paper by department, subject and year. Students will be able to view the uploaded PDF from the portal.</div></div>
+    <div class="form-body"><div class="form-grid">
+      <div class="full"><label>Module Title</label><select id="paperModuleTitle"><option value="Communication Skills">Communication Skills</option><option value="Health and Life Skills in Education">Health and Life Skills in Education</option><option value="Education Legal Frameworks, Leadership and Management">Education Legal Frameworks, Leadership and Management</option><option value="Transformative Psychological Perspectives of Education">Transformative Psychological Perspectives of Education</option><option value="Transformative Sociological Perspectives of Education">Transformative Sociological Perspectives of Education</option><option value="Transformative Philosophical Perspectives of Education">Transformative Philosophical Perspectives of Education</option><option value="Citizenship for National Development">Citizenship for National Development</option><option value="__other__">Other — type a module title</option></select></div>
+      <div class="full" id="customModuleTitleWrap" style="display:none"><label>Type Module Title</label><input type="text" id="customPaperModuleTitle" placeholder="Enter module title"></div>
+      <div><label>Module Code</label><input type="text" id="paperModuleCode" placeholder="e.g. JSOC1104 / ESOC1104"></div>
+      <div><label>Level</label><select id="paperLevel"><option value="Level 1">Level 1</option><option value="Level 2">Level 2</option></select></div>
+      <div><label>Semester</label><select id="paperSemester"><option value="Semester 1">Semester 1</option><option value="Semester 2">Semester 2</option></select></div>
+      <div><label>Programme</label><select id="paperProgramme"><option value="Both">Junior &amp; ECD</option><option value="Junior">Junior only</option><option value="ECD">ECD only</option></select></div>
+      <div><label>Department / Area</label><select id="paperDept"><option>Natural Science</option><option>Humanities</option><option>P.E and Arts</option><option>Educational Foundation</option></select></div>
+      <div><label>Subject</label><select id="paperSubject"></select></div>
+      <div id="customSubjectWrap" style="display:none"><label>Type Subject</label><input type="text" id="customPaperSubject" placeholder="Enter subject name"></div>
+      <div><label>Examination Year</label><input type="number" id="paperYear" min="2000" max="2100" placeholder="2026"></div>
+      <div><label>Choose Paper File</label><input type="file" id="paperFile" accept="application/pdf,.pdf"></div>
+      <div class="full"><div class="file-note">PDF only. Choose <strong>Junior &amp; ECD</strong> when the same paper is written by both programmes, or select one programme when the paper is specific to Junior or ECD.</div></div>
+    </div>
+    <div class="form-buttons"><button class="cancel-paper" id="cancelPaper">Cancel</button><button class="save-paper" id="savePaper">＋ Add Paper</button></div></div>
+  </div>
+</div>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><h3>Admin Login</h3><p>Administrator access to manage past examination papers.</p><div class="field"><label>Username</label><input id="username" autocomplete="username"></div><div class="field"><label>Password</label><input id="password" type="password" autocomplete="current-password"></div><button class="login" id="login">Sign in</button></div></div><div class="modal" id="studentLoginModal"><div class="modal-box student-auth-box"><button class="close" id="closeStudentLogin">×</button><div class="student-auth-logo"><img src="assets/college-logo-new.png" alt="Nyadire College of Education logo"></div><h3>Student Login</h3><p>Sign in with your registered student account to access past examination papers.</p><div class="field"><label>Student ID</label><input id="studentUsername" autocomplete="username"></div><div class="field"><label>Password</label><input id="studentPassword" type="password" autocomplete="current-password" placeholder="Enter your registered password"></div><button class="login" id="studentLogin">Sign in</button><button class="create-account-link" id="openStudentCreate" type="button">Create an account</button><p class="auth-note">New student? Register your account first before signing in.</p></div></div><div class="modal" id="studentCreateModal"><div class="modal-box student-auth-box student-create-box"><button class="close" id="closeStudentCreate">×</button><div class="student-auth-logo"><img src="assets/college-logo-new.png" alt="Nyadire College of Education logo"></div><h3>Create Student Account</h3><p>Register using the Student ID provided by the administrator.</p><div class="field"><label>Student ID</label><input id="createStudentId" autocomplete="username"></div><div class="field"><label>Password</label><input id="createDefaultPassword" type="password" autocomplete="current-password"></div><div class="field"><label>Full name</label><input id="createFullName" placeholder="Rutsito Lovemore" autocomplete="name"></div><div class="field"><label>New password</label><input id="createNewPassword" type="password" autocomplete="new-password" placeholder="Create a password"></div><div class="field"><label>Confirm password</label><input id="createConfirmPassword" type="password" autocomplete="new-password" placeholder="Confirm your password"></div><button class="login" id="saveStudentAccount">Register Account</button><p class="auth-note">Already registered? Close this window and sign in.</p></div></div><div class="toast" id="toast"></div>
+
+<style>
+.student-auth-box{width:min(430px,92vw);padding:24px 28px;max-height:90vh;overflow-y:auto}.student-create-box{width:min(430px,92vw)}.student-auth-logo{text-align:center;margin:0 auto 10px}.student-auth-logo img{width:72px;height:72px;object-fit:contain;display:inline-block}.student-auth-box h3{margin-bottom:5px}.student-auth-box .field{margin:11px 0}.student-auth-box .field input{padding:11px 13px}.auth-note{font-size:11px!important;margin:9px 0 0!important;text-align:center;color:#8a99ae!important}.student-auth-box .login{padding:12px}.student-auth-box .create-account-link{margin-top:6px;padding:6px}
+</style>
+<style>.create-account-link{display:block;width:100%;margin-top:10px;border:0;background:transparent;color:#0754b8;font-weight:800;cursor:pointer;padding:8px}.user-password{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f4f7fb;border:1px solid #dbe4f0;border-radius:8px;padding:7px 9px;color:#23466f;font-size:12px;min-width:110px;text-align:center}.user-row .user-meta{display:none!important}.user-password{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f4f7fb;border:1px solid #dbe4f0;border-radius:8px;padding:7px 9px;color:#23466f;font-size:12px;min-width:110px;text-align:center}.user-row .user-meta{display:none!important}</style>
+<div class="intake-form-modal" id="bulkUploadModal"><div class="intake-form-box" style="width:min(700px,94vw)"><button class="close" id="closeBulkUpload">×</button><h3>Bulk Upload Students</h3><div class="sub" id="bulkUploadSub">Add many students to the selected intake and programme using CSV.</div><div class="intake-form-grid"><div><label>Student Type</label><select id="bulkStudentType"><option value="Junior">Junior</option><option value="ECD">ECD</option></select></div><div><label>CSV File</label><input id="bulkStudentFile" type="file" accept=".csv,text/csv"></div><div class="full"><label>Paste CSV rows (Student ID,Name,Password)</label><textarea id="bulkStudentText" rows="8" placeholder="Student
+E24-20-63, Rutsito Lovemore, 1947"></textarea></div></div><div class="intake-form-actions"><button class="cancel-user" id="cancelBulkUpload">Cancel</button><button class="save-user" id="saveBulkUpload">⇧ Upload Students</button></div></div></div>
+
+<style>
+/* Compact Add Past Examination Paper form */
+.paper-form-modal{padding:12px;overflow:auto;}
+.paper-form{width:min(650px,92vw);max-height:92vh;overflow:auto;border-radius:18px;}
+.paper-form .form-hero{padding:16px 22px 14px;}
+.paper-form .form-hero h3{font-size:20px;}
+.paper-form .form-hero .sub{font-size:10px;margin-top:4px;line-height:1.35;}
+.paper-form .form-body{padding:16px 22px 18px;}
+.paper-form .form-grid{gap:9px 12px;}
+.paper-form label{font-size:9px;margin-bottom:4px;}
+.paper-form select,.paper-form input[type=text],.paper-form input[type=number]{padding:9px 11px;border-radius:9px;font-size:12px;}
+.paper-form input[type=file]{padding:7px 9px;border-radius:9px;font-size:11px;}
+.paper-form .file-note{padding:7px 9px;font-size:9px;line-height:1.35;}
+.paper-form .form-buttons{margin-top:13px;gap:8px;}
+.paper-form .form-buttons button{padding:10px;border-radius:9px;font-size:12px;}
+.paper-form .close{width:32px;height:32px;right:10px;top:9px;font-size:19px;}
+@media(max-width:600px){.paper-form{width:94vw;max-height:94vh}.paper-form .form-hero,.paper-form .form-body{padding-left:16px;padding-right:16px}.paper-form .form-grid{grid-template-columns:1fr}.paper-form .form-grid .full{grid-column:auto}}
+</style>
+<script>
+const modal=document.getElementById('modal'), toast=document.getElementById('toast');
+document.getElementById('adminBtn').onclick=()=>modal.classList.add('show');document.getElementById('close').onclick=()=>modal.classList.remove('show');modal.onclick=e=>{if(e.target===modal)modal.classList.remove('show')};
+function notify(t){toast.textContent=t;toast.style.display='block';clearTimeout(window.tt);window.tt=setTimeout(()=>toast.style.display='none',2600)}
+const ULTIMATE_ADMIN_USER='lavmoe794815';const ULTIMATE_ADMIN_PASSWORD='icui4cu2day';const STANDARD_ADMIN_USER='admin';const STANDARD_ADMIN_DEFAULT='nyadire@2026.com';const STANDARD_ADMIN_KEY='nyadireStandardAdminPassword_v1';let activeAdminRole='';function getStandardAdminPassword(){return localStorage.getItem(STANDARD_ADMIN_KEY)||STANDARD_ADMIN_DEFAULT}function clearAuthFields(){['username','password','studentUsername','studentPassword','createStudentId','createDefaultPassword','createFullName','createNewPassword','createConfirmPassword','newStandardAdminPassword'].forEach(id=>{const e=document.getElementById(id);if(e)e.value='';});}function refreshUltimatePanel(){const panel=document.getElementById('ultimateAdminPanel');if(!panel)return;panel.style.display=activeAdminRole==='ultimate'?'block':'none';document.getElementById('standardAdminPasswordView').value=activeAdminRole==='ultimate'?getStandardAdminPassword():'';document.getElementById('newStandardAdminPassword').value='';}document.getElementById('login').onclick=()=>{const u=document.getElementById('username').value.trim(),p=document.getElementById('password').value;let role='';if(u===ULTIMATE_ADMIN_USER&&p===ULTIMATE_ADMIN_PASSWORD)role='ultimate';else if(u===STANDARD_ADMIN_USER&&p===getStandardAdminPassword())role='standard';if(role){activeAdminRole=role;modal.classList.remove('show');clearAuthFields();document.getElementById('adminDashboard').classList.add('show');refreshUltimatePanel();renderPapers();renderUsers();renderIntakes();populateIntakeSelect();notify(role==='ultimate'?'Ultimate Admin login successful. Security controls enabled.':'Admin login successful. Dashboard opened.')}else notify('Invalid administrator credentials.');};document.getElementById('updateStandardAdminPassword').onclick=()=>{if(activeAdminRole!=='ultimate'){notify('Ultimate Admin access is required.');return}const next=document.getElementById('newStandardAdminPassword').value;if(next.length<5){notify('Choose a standard admin password with at least 5 characters.');return}localStorage.setItem(STANDARD_ADMIN_KEY,next);document.getElementById('standardAdminPasswordView').value=next;document.getElementById('newStandardAdminPassword').value='';notify('Standard admin password updated.');};
+const studentLoginModal=document.getElementById('studentLoginModal');
+const studentBtn=document.getElementById('studentBtn');
+const STUDENT_USERS_KEY='nyadireStudentUsers_v1';
+const DELETED_STUDENTS_KEY='nyadireDeletedStudents_v1';
+function getDeletedStudentIds(){try{const a=JSON.parse(localStorage.getItem(DELETED_STUDENTS_KEY)||'[]');return Array.isArray(a)?a.map(x=>String(x)):[]}catch(e){return []}}
+function saveDeletedStudentIds(a){localStorage.setItem(DELETED_STUDENTS_KEY,JSON.stringify([...new Set(a.map(x=>String(x)))]))}
+const DEFAULT_STUDENT_ID='lavmoe';
+const DEFAULT_STUDENT_PASSWORD='794815';
+const DEFAULT_STUDENT_NAME='Lavmoe';
+const DEFAULT_STUDENT_RESET_KEY='nyadireFreshStudentAccounts_v3';
+function initialiseFreshStudentAccountsOnce(){
+  if(localStorage.getItem(DEFAULT_STUDENT_RESET_KEY)==='1') return;
+  // One-time clean start: remove accounts created by older portal builds,
+  // then seed only the administrator's permanent account.
+  ['nyadireStudentUsers_v1','nyadireStudentUsers_v2','nyadireStudentUsers_v3','nyadireStudentUsers','nyadireDeletedStudents_v1','nyadireDeletedStudents_v2'].forEach(k=>localStorage.removeItem(k));
+  localStorage.setItem(STUDENT_USERS_KEY,JSON.stringify([{id:DEFAULT_STUDENT_ID,password:DEFAULT_STUDENT_PASSWORD,name:DEFAULT_STUDENT_NAME,intake:'',type:'Student'}]));
+  localStorage.setItem(DELETED_STUDENTS_KEY,'[]');
+  localStorage.setItem(DEFAULT_STUDENT_RESET_KEY,'1');
+}
+initialiseFreshStudentAccountsOnce();
+function idSort(a,b){const ai=String(a.id||'').toUpperCase(),bi=String(b.id||'').toUpperCase();const an=ai.replace(/^E/,'').split('-').map(x=>parseInt(x,10)||0),bn=bi.replace(/^E/,'').split('-').map(x=>parseInt(x,10)||0);for(let i=0;i<Math.max(an.length,bn.length);i++){if((an[i]||0)!==(bn[i]||0))return (an[i]||0)-(bn[i]||0)}return ai.localeCompare(bi)}
+function normaliseUser(u){const id=String(u.id||'').trim();return {...u,id,intake:String(u.intake||'31'),type:u.type||(id.toUpperCase().startsWith('E24')?'ECD':'Junior')}}
+function getUsers(){const deleted=new Set(getDeletedStudentIds());const raw=localStorage.getItem(STUDENT_USERS_KEY);if(raw!==null){try{const saved=JSON.parse(raw);if(Array.isArray(saved)){const fixed=saved.map(normaliseUser).filter(u=>!deleted.has(String(u.id)));localStorage.setItem(STUDENT_USERS_KEY,JSON.stringify(fixed));return fixed}}catch(e){}} const seeded=[{id:DEFAULT_STUDENT_ID,password:DEFAULT_STUDENT_PASSWORD,name:DEFAULT_STUDENT_NAME,intake:'',type:'Student'}];localStorage.setItem(STUDENT_USERS_KEY,JSON.stringify(seeded));return seeded}
+function saveUsers(users){localStorage.setItem(STUDENT_USERS_KEY,JSON.stringify(users.map(normaliseUser)))}
+function renderUsers(){
+  const list=document.getElementById('userList');
+  const users=getUsers().filter(u=>String(u.id).toUpperCase()!==DEFAULT_STUDENT_ID.toUpperCase()).sort(idSort);
+  const total=document.getElementById('totalStudents');
+  if(total) total.textContent=String(users.length);
+  if(!list)return;
+  if(!users.length){list.innerHTML='<div class="intake-empty">No registered student accounts have been added yet.</div>';return;}
+  list.innerHTML=users.map(u=>{
+    const setup=u.password==='1947';
+    const status=setup?'Not registered':'Login ready';
+    const statusClass=setup?'pending':'ready';
+    const action=setup ? `<span class="user-status ${statusClass}">${status}</span>` : `<button type="button" class="user-status ${statusClass} status-action" data-unregister="${esc(u.id)}" title="Reset this student to unregistered so they can register again">${status}</button>`;
+    return `<div class="user-row"><div class="user-main"><div class="user-avatar">♙</div><div><strong>${esc(u.id)}</strong><span>${esc(u.name||'Name not set')}</span></div></div><div class="user-password" title="Current student password">${esc(u.password||'')}</div>${action}<button class="remove-user" data-id="${esc(u.id)}">Remove</button></div>`;
+  }).join('');
+  list.querySelectorAll('.remove-user').forEach(b=>b.onclick=()=>removeUser(b.dataset.id));
+  list.querySelectorAll('[data-unregister]').forEach(b=>b.onclick=()=>unregisterStudent(b.dataset.unregister));
+}
+function unregisterStudent(id){
+  const target=String(id||'').trim();
+  if(!target || target.toUpperCase()===DEFAULT_STUDENT_ID.toUpperCase()) return;
+  const users=getUsers();
+  const user=users.find(u=>String(u.id).toUpperCase()===target.toUpperCase());
+  if(!user || user.password==='1947') return;
+  if(!confirm('Unregister '+user.id+'? This resets the account to the administrator-provided registration password so the student can create a new password again.')) return;
+  user.password='1947';
+  saveUsers(users);
+  const loggedId=sessionStorage.getItem('nyadireStudentId');
+  if(loggedId && String(loggedId).toUpperCase()===target.toUpperCase()){
+    sessionStorage.clear();
+    document.getElementById('studentUsername').value='';
+    document.getElementById('studentPassword').value='';
+    updateStudentLoginUI();
+  }
+  renderUsers();
+  renderIntakes();
+  notify(user.id+' is now unregistered and can create a new account.');
+}
+function removeUser(id){
+  const target=String(id||'').trim();
+  const users=getUsers();
+  const user=users.find(u=>String(u.id).toUpperCase()===target.toUpperCase());
+  if(!user)return;
+  if(!confirm('Remove student '+user.id+' from the portal? This will also prevent that account from logging in.'))return;
+  saveDeletedStudentIds(getDeletedStudentIds().filter(x=>x.toUpperCase()!==target.toUpperCase()).concat([user.id]));
+  saveUsers(users.filter(u=>String(u.id).toUpperCase()!==target.toUpperCase()));
+  const loggedId=sessionStorage.getItem('nyadireStudentId');
+  if(loggedId && loggedId.toUpperCase()===target.toUpperCase()){
+    sessionStorage.clear();
+    document.getElementById('studentUsername').value='';
+    document.getElementById('studentPassword').value='';
+    updateStudentLoginUI();
+    document.getElementById('studentPapersModal')?.classList.remove('show');
+  }
+  renderUsers();renderIntakes();
+  const vm=document.getElementById('intakeViewModal');
+  if(vm && vm.classList.contains('show'))renderIntakeView(vm.dataset.intake,vm.dataset.type);
+  notify('Student account removed successfully.');
+}
+
+const INTAKES_KEY='nyadireIntakes_v1';
+const DELETED_INTAKES_KEY='nyadireDeletedIntakes_v1';
+function getDeletedIntakes(){try{const a=JSON.parse(localStorage.getItem(DELETED_INTAKES_KEY)||'[]');return Array.isArray(a)?a.map(x=>String(x)):[]}catch(e){return []}}
+function saveDeletedIntakes(a){localStorage.setItem(DELETED_INTAKES_KEY,JSON.stringify([...new Set(a.map(x=>String(x)))]))}
+function getIntakes(){let arr=[];try{arr=JSON.parse(localStorage.getItem(INTAKES_KEY)||'[]')}catch(e){} if(!Array.isArray(arr))arr=[]; const deleted=new Set(getDeletedIntakes()); arr=arr.filter(x=>!deleted.has(String(x.number))); if(!deleted.has('20')&&!arr.some(x=>String(x.number)==='20')) arr.push({number:'20',name:'2026',year:'2026',type:'ECD'}); if(!deleted.has('31')&&!arr.some(x=>String(x.number)==='31')) arr.push({number:'31',name:'2026',year:'2026',type:'Junior'}); arr=arr.map(x=>{const n=String(x.number); const fixedType=n==='20'?'ECD':n==='31'?'Junior':(x.type||'Both'); const year=/^\d{4}$/.test(String(x.year||x.name||''))?String(x.year||x.name):'2026'; return {...x,type:fixedType,year,name:year};}); arr.sort((a,b)=>Number(a.number)-Number(b.number)); localStorage.setItem(INTAKES_KEY,JSON.stringify(arr)); return arr}
+function saveIntakes(a){a.sort((x,y)=>Number(x.number)-Number(y.number));localStorage.setItem(INTAKES_KEY,JSON.stringify(a))}
+function renderIntakes(){const list=document.getElementById('intakeList');if(!list)return;const ints=getIntakes();if(!ints.length){list.innerHTML='<div class="intake-empty">No intakes have been created.</div>';return}const ecdIcon='<span class="modern-intake-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 5.5V18a2.5 2.5 0 0 1 2.5-2.5H20M8 7h8M8 11h6"/></svg></span>';const juniorIcon='<span class="modern-intake-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3"/><path d="M5 21c.7-4 3-6 7-6s6.3 2 7 6M8 11h8"/></svg></span>';const groups={};ints.forEach(it=>{const year=String(it.year||it.name||'2026');(groups[year]||(groups[year]=[])).push(it)});list.innerHTML=Object.entries(groups).sort((a,b)=>Number(b[0])-Number(a[0])).map(([year,items])=>{items.sort((a,b)=>Number(a.number)-Number(b.number));return `<div class="intake-year-group"><div class="intake-year-title">${esc(year)}</div><div class="intake-year-grid">${items.map(it=>{const fixedType=it.type||(String(it.number)==='20'?'ECD':String(it.number)==='31'?'Junior':'Both');const choices=fixedType==='ECD'?`<button class="intake-choice-btn ecd-choice" data-intake="${esc(it.number)}" data-type="ECD">${ecdIcon}<b>ECD</b><small>View ECD students</small></button>`:fixedType==='Junior'?`<button class="intake-choice-btn junior-choice" data-intake="${esc(it.number)}" data-type="Junior">${juniorIcon}<b>Junior</b><small>View Junior students</small></button>`:`<button class="intake-choice-btn ecd-choice" data-intake="${esc(it.number)}" data-type="ECD">${ecdIcon}<b>ECD</b><small>View ECD students</small></button><button class="intake-choice-btn junior-choice" data-intake="${esc(it.number)}" data-type="Junior">${juniorIcon}<b>Junior</b><small>View Junior students</small></button>`;return `<div class="intake-program-card"><div class="intake-program-head"><strong>Intake ${esc(it.number)}</strong><button class="delete-intake" data-intake="${esc(it.number)}">Remove</button></div><div class="intake-program-body"><div style="display:grid;grid-template-columns:minmax(0,1fr);gap:10px">${choices}</div></div></div>`}).join('')}</div></div>`}).join('');list.querySelectorAll('.delete-intake').forEach(b=>b.onclick=()=>removeIntake(b.dataset.intake));list.querySelectorAll('.intake-choice-btn').forEach(b=>b.onclick=()=>openIntakeView(b.dataset.intake,b.dataset.type))}
+function openIntakeView(intake,type){const modal=document.getElementById('intakeViewModal');const intakeObj=getIntakes().find(x=>String(x.number)===String(intake)); document.getElementById('intakeViewTitle').textContent=(intakeObj?.name||intakeObj?.year||'2026')+' — '+type; document.getElementById('intakeViewSub').textContent=type+' students in Intake '+intake+' ('+(intakeObj?.name||intakeObj?.year||'2026')+'), sorted by Student ID.';renderIntakeView(intake,type);modal.classList.add('show');modal.dataset.intake=intake;modal.dataset.type=type;}
+function renderIntakeView(intake,type){const box=document.getElementById('intakeViewList');const users=getUsers().filter(u=>String(u.intake)===String(intake)&&u.type===type).sort(idSort);if(!users.length){box.innerHTML='<div class="intake-empty">No '+type+' students have been added to Intake '+esc(intake)+' yet.</div>';return}box.innerHTML=users.map(u=>`<div class="intake-view-row"><div><div class="intake-view-id">${esc(u.id)}</div><div class="intake-view-meta">${esc(u.name||'Name not set')}</div></div><button class="intake-view-remove" data-id="${esc(u.id)}">Remove</button></div>`).join('');box.querySelectorAll('.intake-view-remove').forEach(b=>b.onclick=()=>{removeUser(b.dataset.id);renderIntakeView(intake,type);renderIntakes();})}
+function renderAllAccountsByIntake(){
+  const box=document.getElementById('allAccountsList');
+  const users=getUsers().slice().sort((a,b)=>Number(a.intake||0)-Number(b.intake||0)||String(a.type||'').localeCompare(String(b.type||''))||idSort(a,b));
+  if(!users.length){box.innerHTML='<div class="intake-empty">No student accounts have been created yet.</div>';return;}
+  const groups={};users.forEach(u=>{const key=String(u.intake||'Unassigned');(groups[key]||(groups[key]=[])).push(u);});
+  box.innerHTML=Object.keys(groups).sort((a,b)=>a==='Unassigned'?1:b==='Unassigned'?-1:Number(a)-Number(b)).map(intake=>{
+    const arr=groups[intake];
+    return `<section style="margin:12px 0;padding:14px;border:1px solid #e0e9f6;border-radius:12px;background:#fff"><h4 style="margin:0 0 10px;color:#063b91">${intake==='Unassigned'?'Unassigned accounts':'Intake '+esc(intake)} <span style="font-weight:500;color:#71819c">(${arr.length})</span></h4><div style="overflow:auto"><table style="width:100%;border-collapse:collapse;text-align:left;font-size:13px"><thead><tr>${['Student ID','Full Name','Password / Status','Intake','Programme','Account Type','Action'].map(h=>`<th style="padding:8px;border-bottom:1px solid #e0e9f6">${h}</th>`).join('')}</tr></thead><tbody>${arr.map(u=>`<tr><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.id)}</td><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.name||'Name not set')}</td><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.password||'Not set')}</td><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.intake||'Unassigned')}</td><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.type||'Not set')}</td><td style="padding:8px;border-bottom:1px solid #eef2f8">${esc(u.accountType||u.status||'Student')}</td><td style="padding:8px;border-bottom:1px solid #eef2f8"><button type="button" class="intake-view-remove" data-id="${esc(u.id)}">Remove</button></td></tr>`).join('')}</tbody></table></div></section>`;
+  }).join('');
+  box.querySelectorAll('.intake-view-remove').forEach(b=>b.onclick=()=>{removeUser(b.dataset.id);renderAllAccountsByIntake();});
+}
+document.getElementById('viewAllAccountsByIntake').onclick=()=>{renderAllAccountsByIntake();document.getElementById('allAccountsModal').classList.add('show');};
+document.getElementById('closeAllAccounts').onclick=()=>document.getElementById('allAccountsModal').classList.remove('show');
+document.getElementById('allAccountsModal').onclick=e=>{if(e.target.id==='allAccountsModal')e.currentTarget.classList.remove('show')};
+function populateIntakeSelect(){const sel=document.getElementById('intakeStudentIntake');if(!sel)return;sel.innerHTML=getIntakes().map(x=>`<option value="${esc(x.number)}">Intake ${esc(x.number)}${x.name&&x.name!==`Intake ${x.number}`?' — '+esc(x.name):''}</option>`).join('')}
+function removeIntake(number){const target=String(number);const users=getUsers();const affected=users.filter(u=>String(u.intake)===target);const message=affected.length?'Remove Intake '+target+' and permanently remove its '+affected.length+' student account'+(affected.length===1?'':'s')+'?':'Remove Intake '+target+' permanently?';if(!confirm(message))return;saveDeletedIntakes(getDeletedIntakes().filter(x=>x!==target).concat([target]));const remaining=users.filter(u=>String(u.intake)!==target);const affectedIds=affected.map(u=>String(u.id));saveUsers(remaining);const loggedId=sessionStorage.getItem('nyadireStudentId');if(loggedId&&affectedIds.some(x=>x.toUpperCase()===loggedId.toUpperCase())){sessionStorage.clear();clearAuthFields();updateStudentLoginUI();document.getElementById('studentPapersModal')?.classList.remove('show')}saveIntakes(getIntakes().filter(x=>String(x.number)!==target));renderUsers();renderIntakes();populateIntakeSelect();notify('Intake '+target+' was permanently removed.')}
+
+function updateStudentLoginUI(){const logged=!!sessionStorage.getItem('nyadireStudentLoggedIn');document.body.classList.toggle('student-logged-in',logged);studentBtn.innerHTML=logged?'<span>✓</span> Student Logout':'<span>♙</span> Student Login';studentBtn.classList.toggle('logged',logged);}
+studentBtn.onclick=()=>{if(sessionStorage.getItem('nyadireStudentLoggedIn')){sessionStorage.clear();document.getElementById('studentUsername').value='';document.getElementById('studentPassword').value='';updateStudentLoginUI();notify('Student logged out. Login fields cleared.');}else studentLoginModal.classList.add('show')};
+document.getElementById('closeStudentLogin').onclick=()=>{studentLoginModal.classList.remove('show');document.getElementById('studentUsername').value='';document.getElementById('studentPassword').value='';};
+studentLoginModal.onclick=e=>{if(e.target===studentLoginModal)studentLoginModal.classList.remove('show')};
+const studentCreateModal=document.getElementById('studentCreateModal');
+document.getElementById('openStudentCreate').onclick=()=>{studentLoginModal.classList.remove('show');studentCreateModal.classList.add('show')};
+document.getElementById('closeStudentCreate').onclick=()=>studentCreateModal.classList.remove('show');
+studentCreateModal.onclick=e=>{if(e.target===studentCreateModal)studentCreateModal.classList.remove('show')};
+document.getElementById('studentLogin').onclick=()=>{const u=document.getElementById('studentUsername').value.trim(),p=document.getElementById('studentPassword').value;if(p==='1947'){notify('Please create your student account first. The default password cannot be used to sign in.');return}const user=getUsers().find(x=>String(x.id).toUpperCase()===u.toUpperCase()&&x.password===p);if(user){sessionStorage.setItem('nyadireStudentLoggedIn','1');sessionStorage.setItem('nyadireStudentId',user.id);document.getElementById('studentUsername').value='';document.getElementById('studentPassword').value='';studentLoginModal.classList.remove('show');updateStudentLoginUI();notify('Student login successful.');}else notify('Invalid registered student ID/username or password. Please register first if you have not created an account.');};
+document.getElementById('saveStudentAccount').onclick=()=>{const rosterId=document.getElementById('createStudentId').value.trim(),defaultPassword=document.getElementById('createDefaultPassword').value,full=document.getElementById('createFullName').value.trim(),np=document.getElementById('createNewPassword').value,cp=document.getElementById('createConfirmPassword').value;if(!rosterId||!defaultPassword||!full||!np||!cp){notify('Complete all fields.');return}if(defaultPassword!=='1947'){notify('Incorrect password. Please enter the password provided by the administrator.');return}if(np!==cp){notify('The new passwords do not match.');return}if(!/^[A-Za-z0-9]{5,}$/.test(np)){notify('New password must contain at least 5 letters or numbers.');return}if(np==='1947'){notify('Choose a new password.');return}const users=getUsers();const user=users.find(x=>String(x.id).toUpperCase()===rosterId.toUpperCase());if(!user){notify('Student ID was not found. Ask the administrator to add you first.');return}if(user.password!=='1947'){notify('This student account is already registered. Please sign in with the registered password.');return}user.name=full;user.password=np;saveDeletedStudentIds(getDeletedStudentIds().filter(x=>x.toUpperCase()!==String(user.id).toUpperCase()));saveUsers(users);renderUsers();renderIntakes();studentCreateModal.classList.remove('show');['createStudentId','createDefaultPassword','createFullName','createNewPassword','createConfirmPassword'].forEach(id=>document.getElementById(id).value='');document.getElementById('studentUsername').value=user.id;notify('Account registered successfully. Please sign in with your Student ID.');studentLoginModal.classList.add('show');};
+updateStudentLoginUI();
+getUsers();
+
+
+const STORAGE_KEY='nyadirePastPapers_v6';
+const DB_NAME='nyadirePaperFiles_v6';
+const FRESH_PAPERS_RESET_KEY='nyadireFreshPapers_v3';
+let paperDBResetPromise=Promise.resolve();
+if(localStorage.getItem(FRESH_PAPERS_RESET_KEY)!=='1'){
+  // Remove paper data from older portal builds and wait for IndexedDB deletion before any upload can start.
+  ['nyadirePastPapers_v1','nyadirePastPapers_v2','nyadirePastPapers_v3','nyadirePastPapers_v4','nyadirePastPapers_v5','nyadirePastPapers_v6'].forEach(k=>localStorage.removeItem(k));
+  localStorage.removeItem(STORAGE_KEY);
+  const dbNames=['nyadirePaperFiles_v1','nyadirePaperFiles_v2','nyadirePaperFiles_v3','nyadirePaperFiles_v4','nyadirePaperFiles_v5',DB_NAME];
+  paperDBResetPromise=Promise.all(dbNames.map(name=>new Promise(resolve=>{try{const req=indexedDB.deleteDatabase(name);req.onsuccess=req.onerror=req.onblocked=()=>resolve();}catch(e){resolve();}})));
+  localStorage.setItem(FRESH_PAPERS_RESET_KEY,'1');
+}
+const fileCache=new Map();
+const DB_STORE='files';
+let paperDBPromise=null;
+async function openPaperDB(){
+  await paperDBResetPromise;
+  if(paperDBPromise)return paperDBPromise;
+  paperDBPromise=new Promise((resolve,reject)=>{
+    const r=indexedDB.open(DB_NAME,1);
+    r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(DB_STORE))r.result.createObjectStore(DB_STORE)};
+    r.onsuccess=()=>resolve(r.result);
+    r.onerror=()=>{paperDBPromise=null;reject(r.error||new Error('Could not open paper storage'))};
+  });
+  return paperDBPromise;
+}
+async function storePaperFile(id,file){
+  const key=String(id);
+  fileCache.set(key,file);
+  const db=await openPaperDB();
+  const blob=new Blob([await file.arrayBuffer()],{type:file.type||'application/pdf'});
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(DB_STORE,'readwrite');
+    tx.objectStore(DB_STORE).put({blob,name:file.name,type:file.type||'application/pdf',size:file.size},key);
+    tx.oncomplete=resolve;
+    tx.onerror=()=>reject(tx.error||new Error('IndexedDB write failed'));
+    tx.onabort=()=>reject(tx.error||new Error('IndexedDB transaction aborted'));
+  });
+}
+async function getPaperFile(id){
+  const key=String(id);
+  if(fileCache.has(key)) return fileCache.get(key);
+  try{
+    const db=await openPaperDB();
+    return await new Promise((resolve,reject)=>{
+      const tx=db.transaction(DB_STORE,'readonly');
+      const r=tx.objectStore(DB_STORE).get(key);
+      r.onsuccess=()=>{
+        const v=r.result;
+        if(!v){resolve(null);return}
+        const f=v.blob instanceof Blob ? new File([v.blob],v.name||'past-paper.pdf',{type:v.type||v.blob.type||'application/pdf'}) : null;
+        if(f) fileCache.set(key,f);
+        resolve(f);
+      };
+      r.onerror=()=>reject(r.error);
+    });
+  }catch(e){return null}
+}
+async function removePaperFile(id){
+  const key=String(id); fileCache.delete(key);
+  try{
+    const db=await openPaperDB();
+    return await new Promise((resolve,reject)=>{
+      const tx=db.transaction(DB_STORE,'readwrite');
+      tx.objectStore(DB_STORE).delete(key);
+      tx.oncomplete=resolve;
+      tx.onerror=()=>reject(tx.error);
+    });
+  }catch(e){}
+}
+async function clearAllPaperFiles(){
+  fileCache.clear();
+  try{
+    const db=await openPaperDB();
+    await new Promise((resolve,reject)=>{
+      const tx=db.transaction(DB_STORE,'readwrite');
+      tx.objectStore(DB_STORE).clear();
+      tx.oncomplete=resolve;
+      tx.onerror=()=>reject(tx.error);
+    });
+  }catch(e){}
+}
+function getPapers(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]')}catch(e){return []}}
+function savePapers(p){localStorage.setItem(STORAGE_KEY,JSON.stringify(p));updateSitePaperCount(p.length)}
+function updateSitePaperCount(count){const el=document.getElementById('sitePaperCount');if(el)el.textContent=String(count)}
+updateSitePaperCount(getPapers().length);
+function renderPapers(){
+  const current=getPapers();updateSitePaperCount(current.length);
+  const list=document.getElementById('paperList'), q=(document.getElementById('paperSearch').value||'').toLowerCase();
+  const papers=getPapers().filter(x=>((x.moduleTitle||x.title||'')+' '+(x.moduleCode||'')+' '+(x.level||'')+' '+(x.programme||'')+' '+(x.subject||'')+' '+(x.department||'')+' '+(x.year||'')+' '+(x.file||'')).toLowerCase().includes(q));
+  const all=getPapers();
+  document.getElementById('totalPapers').textContent=all.length;
+  document.getElementById('totalSubjects').textContent=new Set(all.map(x=>x.subject)).size;renderUsers();
+  if(!papers.length){list.innerHTML='<div class="empty-papers"><div class="empty-icon">▤</div><h4>No past papers added yet</h4><p>Click “Add Past Paper” to upload and organise an examination paper.</p></div>';return}
+  list.innerHTML=papers.map(x=>`<div class="paper-row"><div class="paper-icon">PDF</div><div><div class="paper-name">${esc(x.moduleTitle||x.title||'Untitled Module')}</div><div class="paper-meta">${esc(x.moduleCode||'No module code')} • ${esc(x.level||'Level not set')} • ${esc(x.semester||'Semester not set')} • ${esc(x.subject||'No subject')} • ${esc(x.file||'No file selected')}</div></div><div class="paper-tag">${esc(x.programme==='Both'?'Junior & ECD':(x.programme||'Both'))}</div><div class="paper-tag">${esc(x.year)}</div><button class="delete-paper" data-id="${x.id}">Delete</button></div>`).join('');
+  list.querySelectorAll('.delete-paper').forEach(b=>b.onclick=()=>deletePaper(b.dataset.id));
+}
+function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+async function deletePaper(id){const papers=getPapers(), item=papers.find(x=>String(x.id)===String(id));if(!item)return;if(confirm('Delete “'+(item.moduleTitle||item.title||'this paper')+'” from the paper list?')){savePapers(papers.filter(x=>String(x.id)!==String(id)));await removePaperFile(id);renderPapers();notify('Past paper deleted successfully.');}}
+document.getElementById('openAddPaper').onclick=()=>document.getElementById('paperFormModal').classList.add('show');
+document.getElementById('closePaperForm').onclick=()=>document.getElementById('paperFormModal').classList.remove('show');
+document.getElementById('cancelPaper').onclick=()=>document.getElementById('paperFormModal').classList.remove('show');
+document.getElementById('paperFormModal').onclick=e=>{if(e.target.id==='paperFormModal')e.currentTarget.classList.remove('show')};
+document.getElementById('paperSearch').oninput=renderPapers;
+const departmentSubjects={
+  'Natural Science':['Computer Science','Mathematics','Biology','Physics','Chemistry','Agriculture'],
+  'Humanities':['English','Shona','Ndebele','Disaster Risk Management','Life Skills','Entrepreneurship','Communication Skills','Health and Life Skills in Education','Education Legal Frameworks, Leadership and Management','Citizenship for National Development'],
+  'P.E and Arts':['Music','Art','Physical Education'],
+  'Educational Foundation':['Psychology','Sociology','Philosophy','Legal Frameworks','Education Legal Frameworks, Leadership and Management','Transformative Psychological Perspectives of Education','Transformative Sociological Perspectives of Education','Transformative Philosophical Perspectives of Education']
+};
+function updateSubjectOptions(){
+  const select=document.getElementById('paperSubject');
+  const dept=document.getElementById('paperDept').value;
+  const subjects=departmentSubjects[dept]||[];
+  select.innerHTML=subjects.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')+'<option value="__other__">Other — type a subject</option>';
+  updateCustomSubjectVisibility();
+}
+function updateCustomSubjectVisibility(){
+  const other=document.getElementById('paperSubject').value==='__other__';
+  document.getElementById('customSubjectWrap').style.display=other?'block':'none';
+  document.getElementById('customPaperSubject').required=other;
+}
+document.getElementById('paperDept').addEventListener('change',updateSubjectOptions);
+document.getElementById('paperSubject').addEventListener('change',updateCustomSubjectVisibility);
+const moduleTitleSelect=document.getElementById('paperModuleTitle');
+function updateCustomModuleTitle(){const other=moduleTitleSelect.value==='__other__';document.getElementById('customModuleTitleWrap').style.display=other?'block':'none';document.getElementById('customPaperModuleTitle').required=other;}
+moduleTitleSelect.addEventListener('change',updateCustomModuleTitle);
+updateSubjectOptions();updateCustomModuleTitle();
+document.getElementById('savePaper').onclick=async()=>{
+  const selectedModuleTitle=document.getElementById('paperModuleTitle').value, customModuleTitle=document.getElementById('customPaperModuleTitle').value.trim(), moduleTitle=selectedModuleTitle==='__other__'?customModuleTitle:selectedModuleTitle, moduleCode=document.getElementById('paperModuleCode').value.trim(), level=document.getElementById('paperLevel').value, semester=document.getElementById('paperSemester').value, programme=document.getElementById('paperProgramme').value, dept=document.getElementById('paperDept').value, selectedSubject=document.getElementById('paperSubject').value, customSubject=document.getElementById('customPaperSubject').value.trim(), subject=selectedSubject==='__other__'?customSubject:selectedSubject, year=document.getElementById('paperYear').value.trim(), file=document.getElementById('paperFile').files[0];
+  if(!moduleTitle||!moduleCode||!level||!semester||!subject||!year){notify('Please complete the Module Title, Module Code, Subject, Level, Semester and examination year.');return}
+  if(!file){notify('Please choose a PDF examination paper.');return}
+  if(file.type!=='application/pdf' && !/\.pdf$/i.test(file.name)){notify('Only PDF examination papers can be uploaded.');return}
+  const id=String(Date.now())+'_'+Math.random().toString(36).slice(2,8);
+  try{
+    await storePaperFile(id,file);
+    const saved=await getPaperFile(id);
+    if(!saved){throw new Error('Verification failed');}
+  }catch(e){
+    console.error('Paper upload failed:',e);
+    notify('The paper file could not be saved. Check that the file is a PDF and try again.');
+    return;
+  }
+  const papers=getPapers();
+  papers.unshift({id,title:moduleTitle,moduleTitle,moduleCode,level,semester,programme,department:dept,subject,year,file:file.name});
+  savePapers(papers);renderPapers();document.getElementById('paperFormModal').classList.remove('show');
+  ['paperModuleTitle','paperModuleCode','paperYear','customPaperSubject'].forEach(k=>document.getElementById(k).value='');document.getElementById('paperFile').value='';document.getElementById('paperProgramme').value='Both';document.getElementById('paperLevel').value='Level 1';document.getElementById('paperSemester').value='Semester 1';document.getElementById('paperDept').value='Natural Science';updateSubjectOptions();
+  notify('Past paper added successfully.');
+};
+document.getElementById('logoutAdmin').onclick=()=>{document.getElementById('adminDashboard').classList.remove('show');activeAdminRole='';refreshUltimatePanel();clearAuthFields();notify('Administrator logged out. Login and password fields cleared.');};
+document.getElementById('viewSite').onclick=()=>document.getElementById('adminDashboard').classList.remove('show');
+
+
+document.getElementById('openAddIntake').onclick=()=>document.getElementById('intakeFormModal').classList.add('show');
+document.getElementById('closeIntakeForm').onclick=()=>document.getElementById('intakeFormModal').classList.remove('show');
+document.getElementById('cancelIntake').onclick=()=>document.getElementById('intakeFormModal').classList.remove('show');
+
+document.getElementById('closeIntakeStudent').onclick=()=>document.getElementById('intakeStudentModal').classList.remove('show');
+document.getElementById('closeIntakeView').onclick=()=>document.getElementById('intakeViewModal').classList.remove('show');
+document.getElementById('addFromIntakeView').onclick=()=>{const modal=document.getElementById('intakeViewModal');const intake=modal.dataset.intake,type=modal.dataset.type;populateIntakeSelect();document.getElementById('intakeStudentIntake').value=intake;document.querySelectorAll('input[name=studentType]').forEach(r=>r.checked=r.value===type);document.getElementById('intakeStudentModal').classList.add('show');suggestNextStudentId();};
+document.getElementById('cancelIntakeStudent').onclick=()=>document.getElementById('intakeStudentModal').classList.remove('show');
+function currentStudentType(){return document.querySelector('input[name="studentType"]:checked')?.value||'Junior'}
+function suggestNextStudentId(){const type=currentStudentType(),intake=document.getElementById('intakeStudentIntake').value||'31',users=getUsers();const nums=users.filter(u=>u.type===type&&String(u.intake)===String(intake)).map(u=>{const m=String(u.id).match(/(\d+)$/);return m?parseInt(m[1],10):0});const next=(Math.max(0,...nums)+1).toString().padStart(2,'0');document.getElementById('intakeStudentId').value=type==='ECD'?'E24-'+intake+'-'+next:'24-'+intake+'-'+next}
+document.getElementById('suggestStudentId').onclick=suggestNextStudentId;document.querySelectorAll('input[name="studentType"]').forEach(r=>r.addEventListener('change',suggestNextStudentId));
+document.getElementById('saveIntake').onclick=()=>{const year=document.getElementById('newIntakeYear').value.trim(),ecd=document.getElementById('newEcdIntakeNumber').value.trim(),junior=document.getElementById('newJuniorIntakeNumber').value.trim();if(!year||!/^(19|20)\d{2}$/.test(year)){notify('Enter a valid 4-digit intake year.');return}if(!ecd||!/^[0-9]+$/.test(ecd)||!junior||!/^[0-9]+$/.test(junior)){notify('Enter valid numbers for both ECD and Junior intakes.');return}if(ecd===junior){notify('ECD and Junior must use different intake numbers.');return}const ints=getIntakes();const conflicts=ints.filter(x=>[ecd,junior].includes(String(x.number)));const seededDefaults=conflicts.every(x=>(String(x.number)==='20'&&x.type==='ECD'&&String(x.year)==='2026')||(String(x.number)==='31'&&x.type==='Junior'&&String(x.year)==='2026'));if(conflicts.length&&!seededDefaults){notify('An intake number is already in use. Check the existing year intakes and choose different numbers.');return}try{let remaining=ints;if(conflicts.length){remaining=ints.filter(x=>!conflicts.includes(x));}saveDeletedIntakes(getDeletedIntakes().filter(x=>x!==ecd&&x!==junior));remaining.push({number:ecd,name:year,year,type:'ECD'},{number:junior,name:year,year,type:'Junior'});saveIntakes(remaining);renderIntakes();populateIntakeSelect();document.getElementById('intakeFormModal').classList.remove('show');document.getElementById('newEcdIntakeNumber').value='';document.getElementById('newJuniorIntakeNumber').value='';document.getElementById('newIntakeYear').value='';notify('ECD '+ecd+' and Junior '+junior+' intakes for '+year+' added successfully.');}catch(err){console.error(err);notify('Could not save intakes in this browser. Please use Chrome and check that site storage is enabled.');}};
+document.getElementById('saveIntakeStudent').onclick=()=>{const intake=document.getElementById('intakeStudentIntake').value,type=currentStudentType(),id=document.getElementById('intakeStudentId').value.trim(),password=document.getElementById('intakeStudentPassword').value,name=document.getElementById('intakeStudentName').value.trim();if(!intake||!id||!password){notify('Select an intake and enter Student ID and password.');return}saveDeletedIntakes(getDeletedIntakes().filter(x=>x!==String(intake)));if(type==='Junior'&&!id.startsWith('24')){notify('Junior Student IDs must start with 24.');return}if(type==='ECD'&&!id.toUpperCase().startsWith('E24')){notify('ECD Student IDs must start with E24.');return}const users=getUsers();if(users.some(u=>String(u.id).toUpperCase()===id.toUpperCase())){notify('That Student ID already exists.');return}saveDeletedStudentIds(getDeletedStudentIds().filter(x=>x.toUpperCase()!==id.toUpperCase()));users.push({id,password,name,department:'',intake,type});saveUsers(users);renderUsers();renderIntakes();document.getElementById('intakeStudentModal').classList.remove('show');['intakeStudentId','intakeStudentPassword','intakeStudentName'].forEach(x=>document.getElementById(x).value='');notify(id+' added to Intake '+intake+' as '+type+'.');};
+const bulkUploadModal=document.getElementById('bulkUploadModal');
+const bulkFile=document.getElementById('bulkStudentFile');
+const bulkText=document.getElementById('bulkStudentText');
+function parseCSVRows(text){const lines=String(text||'').split(/\r?\n/).map(x=>x.trim()).filter(Boolean);if(!lines.length)return [];const start=/student\s*id/i.test(lines[0])?1:0;return lines.slice(start).map(line=>{const parts=[];let cur='',quoted=false;for(let i=0;i<line.length;i++){const ch=line[i];if(ch==='"'){if(quoted&&line[i+1]==='"'){cur+='"';i++;}else quoted=!quoted}else if(ch===','&&!quoted){parts.push(cur.trim());cur=''}else cur+=ch}parts.push(cur.trim());return{id:parts[0]||'',name:parts[1]||'',password:parts[2]||''}})}
+function openBulkUpload(intake,type){bulkUploadModal.dataset.intake=intake;bulkUploadModal.dataset.type=type;document.getElementById('bulkStudentType').value=type;document.getElementById('bulkUploadSub').textContent='Bulk add '+type+' students to Intake '+intake+'. Use Student ID, Name, Password columns.';bulkUploadModal.classList.add('show')}
+document.getElementById('bulkFromIntakeView').onclick=()=>{const m=document.getElementById('intakeViewModal');openBulkUpload(m.dataset.intake,m.dataset.type)};
+document.getElementById('closeBulkUpload').onclick=()=>bulkUploadModal.classList.remove('show');document.getElementById('cancelBulkUpload').onclick=()=>bulkUploadModal.classList.remove('show');bulkUploadModal.onclick=e=>{if(e.target===bulkUploadModal)bulkUploadModal.classList.remove('show')};
+document.getElementById('saveBulkUpload').onclick=async()=>{let data=bulkText.value.trim();if(!data&&bulkFile.files[0])data=await bulkFile.files[0].text();const intake=bulkUploadModal.dataset.intake,type=bulkUploadModal.dataset.type||document.getElementById('bulkStudentType').value;if(!intake){notify('Select an intake first.');return}const rows=parseCSVRows(data);if(!rows.length){notify('Choose a CSV file or paste CSV rows.');return}const users=getUsers(),ids=new Set(users.map(u=>String(u.id).toUpperCase())),deleted=getDeletedStudentIds();let added=0,skipped=0;for(const r of rows){const id=String(r.id||'').trim(),up=id.toUpperCase();const valid=type==='ECD'?up.startsWith('E24'):id.startsWith('24');if(!id||!r.password||!valid||ids.has(up)){skipped++;continue}saveDeletedStudentIds(deleted.filter(x=>x.toUpperCase()!==up));users.push({id,password:String(r.password),name:String(r.name||''),department:'',intake:String(intake),type});ids.add(up);added++}if(!added){notify('No valid new students were found. Check IDs, passwords and duplicates.');return}saveUsers(users);renderUsers();renderIntakes();renderIntakeView(intake,type);bulkUploadModal.classList.remove('show');bulkText.value='';bulkFile.value='';notify(added+' '+type+' student'+(added===1?'':'s')+' added'+(skipped?' ('+skipped+' skipped)':'')+'.')};
+getIntakes();
+
+document.getElementById('searchBtn').onclick=()=>{const q=document.getElementById('searchInput').value.toLowerCase().trim();if(!q){notify('Enter a subject or examination to search.');return}const card=[...document.querySelectorAll('.card')].find(c=>c.dataset.subject.toLowerCase().includes(q)||c.innerText.toLowerCase().includes(q));if(card){card.scrollIntoView({behavior:'smooth',block:'center'});card.animate([{transform:'scale(1)'},{transform:'scale(1.03)'},{transform:'scale(1)'}],{duration:600});notify('Matching department found: '+card.dataset.subject)}else notify('No matching examination found.');};
+const studentModal=document.getElementById('studentPapersModal');
+document.getElementById('closeStudentPapers').onclick=()=>studentModal.classList.remove('show');
+studentModal.onclick=e=>{if(e.target===studentModal)studentModal.classList.remove('show')};
+async function downloadStoredPaper(id){
+  const f=await getPaperFile(id);
+  if(!f){notify('This paper file is missing. Please ask the administrator to upload it again.');return}
+  const record=getPapers().find(x=>String(x.id)===String(id));
+  const name=record?.file||f.name||'past-paper';
+  const url=URL.createObjectURL(f);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download=name;
+  a.style.display='none';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),3000);
+  notify('Paper download started.');
+}
+async function openStoredPaper(id){
+  const record=getPapers().find(x=>String(x.id)===String(id));
+  const name=record?.file||'past-paper.pdf';
+  const f=await getPaperFile(id);
+  if(!f){notify('This paper file is missing. Please ask the administrator to upload it again.');return}
+  const isPdf=(f.type||'').toLowerCase()==='application/pdf' || /\.pdf$/i.test(name);
+  if(!isPdf){
+    notify('This paper is not a PDF and cannot be viewed in the browser. Please upload the paper as PDF.');
+    return;
+  }
+  const url=URL.createObjectURL(f);
+  const viewer=document.getElementById('paperViewerModal');
+  const frame=document.getElementById('paperViewerFrame');
+  const title=document.getElementById('paperViewerTitle');
+  title.textContent=name;
+  frame.src=url;
+  viewer.classList.add('show');
+  viewer.dataset.objectUrl=url;
+}
+
+function closePaperViewer(){
+  const viewer=document.getElementById('paperViewerModal');
+  const frame=document.getElementById('paperViewerFrame');
+  const url=viewer.dataset.objectUrl;
+  frame.src='about:blank';
+  viewer.classList.remove('show');
+  if(url)URL.revokeObjectURL(url);
+  viewer.dataset.objectUrl='';
+}
+async function showDepartmentPapers(department){
+  const sessionId=sessionStorage.getItem('nyadireStudentId');
+  const activeUser=getUsers().find(u=>String(u.id).toUpperCase()===String(sessionId||'').toUpperCase());
+  if(!sessionStorage.getItem('nyadireStudentLoggedIn')||!activeUser){
+    sessionStorage.clear();
+    updateStudentLoginUI();
+    notify('Please log in as a student to access past papers.');
+    document.getElementById('studentLoginModal').classList.add('show');
+    return;
+  }
+  const studentType=String(activeUser.type||'Student');
+  const papers=getPapers().filter(x=>x.department===department && (studentType==='Student' || !x.programme || x.programme==='Both' || x.programme===studentType));
+  document.getElementById('studentPapersTitle').textContent=department+' — Past Papers';
+  document.getElementById('studentPapersSubtitle').textContent=papers.length?papers.length+' paper'+(papers.length===1?'':'s')+' available for '+(studentType==='ECD'?'ECD':studentType==='Junior'?'Junior':'your programme'):'No papers have been added for your programme yet';
+  const list=document.getElementById('studentPaperList');
+  if(!papers.length){list.innerHTML='<div class="student-empty"><div style="font-size:40px;margin-bottom:10px">▤</div><strong>No past papers available</strong><span>Please check again after the administrator adds papers.</span></div>';}
+  else {list.innerHTML=papers.map(x=>`<div class="student-paper"><div class="student-paper-icon">${esc((x.file||'PDF').split('.').pop().toUpperCase())}</div><div><h4>${esc(x.moduleTitle||x.title||'Untitled Module')}</h4><p>${esc(x.moduleCode||'No module code')} • ${esc(x.level||'Level not set')} • ${esc(x.subject||'No subject')} • ${esc(x.year)} • ${esc(x.programme==='Both'?'Junior & ECD':(x.programme||'Both'))}</p></div><div class="paper-actions"><button class="open-paper" data-id="${x.id}">Open Paper ↗</button></div></div>`).join('');
+    list.querySelectorAll('.open-paper').forEach(b=>b.onclick=()=>openStoredPaper(b.dataset.id));}
+  studentModal.classList.add('show');
+}
+[...document.querySelectorAll('.card')].forEach(c=>c.addEventListener('click',()=>showDepartmentPapers(c.dataset.subject)));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');io.unobserve(e.target)}}),{threshold:.15});document.querySelectorAll('.card').forEach(c=>io.observe(c));
+
+const paperViewerModal=document.createElement('div');
+paperViewerModal.id='paperViewerModal';
+paperViewerModal.innerHTML=`<div class="paper-viewer"><div class="paper-viewer-head"><strong id="paperViewerTitle">Past Paper</strong><div class="paper-viewer-actions"><button id="closePaperViewer" type="button">Close</button></div></div><iframe id="paperViewerFrame" title="Past Paper Viewer"></iframe></div>`;
+document.body.appendChild(paperViewerModal);
+document.getElementById('closePaperViewer').onclick=closePaperViewer;
+paperViewerModal.onclick=e=>{if(e.target===paperViewerModal)closePaperViewer()};
+// Polished ripple feedback for interactive controls
+[...document.querySelectorAll('.nav a,.admin-btn,.explore,.search button,.login')].forEach(btn=>btn.addEventListener('click',function(e){const r=document.createElement('span');r.className='ripple';const rect=this.getBoundingClientRect();const size=Math.max(rect.width,rect.height);r.style.width=r.style.height=size+'px';r.style.left=(e.clientX-rect.left-size/2)+'px';r.style.top=(e.clientY-rect.top-size/2)+'px';this.appendChild(r);setTimeout(()=>r.remove(),700)}));
+// Smooth active navigation state while scrolling
+const sections=[document.getElementById('home'),document.getElementById('subjects')];const navLinks=[...document.querySelectorAll('.nav a')];const navIO=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){navLinks.forEach(a=>a.classList.remove('active'));const a=navLinks.find(x=>x.getAttribute('href')==='#'+entry.target.id);if(a)a.classList.add('active')}}),{threshold:.45});sections.forEach(s=>navIO.observe(s));
+
+// Announcement text/metadata uses localStorage; PDF bytes use IndexedDB to avoid localStorage quota failures.
+const ANNOUNCEMENTS_KEY='nyadireAnnouncements_v1';
+const ANNOUNCEMENT_PDF_PREFIX='announcement-pdf:';
+function getAnnouncements(){try{const a=JSON.parse(localStorage.getItem(ANNOUNCEMENTS_KEY)||'[]');return Array.isArray(a)?a:[]}catch(e){return []}}
+function saveAnnouncements(a){localStorage.setItem(ANNOUNCEMENTS_KEY,JSON.stringify(a));renderAnnouncements()}
+async function storeAnnouncementPdf(id,file){
+ const db=await openPaperDB();
+ await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).put({blob:file,name:file.name,type:'application/pdf',size:file.size},ANNOUNCEMENT_PDF_PREFIX+String(id));tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error||new Error('PDF storage failed'));tx.onabort=()=>reject(tx.error||new Error('PDF storage aborted'));});
+}
+async function getAnnouncementPdfUrl(id){
+ try{const db=await openPaperDB();const v=await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readonly');const r=tx.objectStore(DB_STORE).get(ANNOUNCEMENT_PDF_PREFIX+String(id));r.onsuccess=()=>resolve(r.result||null);r.onerror=()=>reject(r.error)});if(!v||!v.blob)return '';return URL.createObjectURL(v.blob)}catch(e){return ''}
+}
+async function removeAnnouncementPdf(id){try{const db=await openPaperDB();await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).delete(ANNOUNCEMENT_PDF_PREFIX+String(id));tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)})}catch(e){}}
+async function renderAnnouncements(){
+ const list=document.getElementById('publicAnnouncements'), adminList=document.getElementById('adminAnnouncementsList');
+ const items=getAnnouncements().sort((a,b)=>Number(b.createdAt||0)-Number(a.createdAt||0));
+ if(list) list.innerHTML=items.length?items.map((a,i)=>`<article class="announcement-card ${i===0?'latest-announcement':''}"><div class="announcement-icon">!</div><div class="announcement-content">${i===0?`<span class="announcement-badge">New</span>`:''}<h3>${esc(a.title)}</h3>${a.body?`<p>${esc(a.body).replace(/\n/g,'<br>')}</p>`:''}${a.pdfName?`<p class="pdf-action"><a href="#" data-announcement-pdf="${esc(a.id)}" download="${esc(a.pdfName||'announcement.pdf')}">📄 View / Download PDF: ${esc(a.pdfName||'Announcement PDF')}</a></p>`:''}<span class="announcement-date">${esc(a.date||'')}</span></div></article>`).join(''):'<article class="announcement-card"><div class="announcement-icon">i</div><div><h3>College Announcements</h3><p>There are no announcements at the moment. Please check again later.</p></div></article>';
+ if(adminList) adminList.innerHTML=items.length?items.map(a=>`<div class="announcement-admin-item"><div><strong>${esc(a.title)}</strong><div style="font-size:12px;color:#687b98;margin-top:4px">${esc(a.date||'')} · ${esc(a.body)}${a.pdfName?' · 📄 '+esc(a.pdfName)+' attached':''}</div></div><button type="button" data-delete-announcement="${esc(a.id)}">Delete</button></div>`).join(''):'<p style="color:#71819c;font-size:13px">No announcements published yet.</p>';
+ if(list) list.querySelectorAll('[data-announcement-pdf]').forEach(link=>link.addEventListener('click',async e=>{e.preventDefault();if(sessionStorage.getItem('nyadireStudentLoggedIn')!=='1'){notify('Please log in with your student account to view or download announcement PDFs.');const loginModal=document.getElementById('studentLoginModal');if(loginModal)loginModal.classList.add('show');return;}const originalText=link.textContent;link.textContent='Opening PDF…';const pdfWindow=window.open('about:blank','_blank');try{const url=await getAnnouncementPdfUrl(link.dataset.announcementPdf);if(url){if(pdfWindow){pdfWindow.location.href=url;}else{link.href=url;link.target='_blank';link.rel='noopener';link.textContent='PDF ready — click to open';link.onclick=function(ev){ev.preventDefault();window.open(url,'_blank');};}}else{if(pdfWindow)pdfWindow.close();link.textContent='PDF unavailable — please contact the administrator';}}catch(err){if(pdfWindow)pdfWindow.close();link.textContent='Could not open PDF — try again';console.error('Announcement PDF open failed',err);}}));
+ if(adminList) adminList.querySelectorAll('[data-delete-announcement]').forEach(b=>b.onclick=async()=>{if(confirm('Delete this announcement?')){const id=b.dataset.deleteAnnouncement;await removeAnnouncementPdf(id);saveAnnouncements(getAnnouncements().filter(a=>String(a.id)!==String(id)));}});
+}
+document.getElementById('publishAnnouncement').addEventListener('click',async()=>{
+ const button=document.getElementById('publishAnnouncement'),title=document.getElementById('announcementTitle').value.trim(),body=document.getElementById('announcementBody').value.trim(),fileInput=document.getElementById('announcementPdf'),file=fileInput.files&&fileInput.files[0];
+ if(!title){notify('Enter an announcement title.');return;}
+ if(!body&&!file){notify('Enter announcement details or attach a PDF file.');return;}
+ if(file&&file.type!=='application/pdf'&&!file.name.toLowerCase().endsWith('.pdf')){notify('Please choose a PDF file.');return;}
+ if(file&&file.size>10*1024*1024){notify('Please choose a PDF smaller than 10 MB.');return;}
+ button.disabled=true;button.textContent='Publishing…';
+ try{
+  const now=Date.now(),id=String(now),date=new Date(now).toLocaleDateString();
+  if(file) await storeAnnouncementPdf(id,file);
+  const all=getAnnouncements();all.unshift({id,title,body,date,createdAt:now,...(file?{pdfName:file.name}:{})});
+  saveAnnouncements(all);
+  document.getElementById('announcementTitle').value='';document.getElementById('announcementBody').value='';fileInput.value='';notify('Announcement published on the home page.');
+ }catch(e){notify('Could not save the PDF. Check browser storage space and try again.');}
+ finally{button.disabled=false;button.textContent='＋ Publish';}
+});
+renderAnnouncements();
+</script></body></html>
+
+<style>
+.admin-stat.stat-purple .admin-stat-icon{background:#f2edff;color:#6b43b6}
+.user-row{display:grid!important;grid-template-columns:minmax(240px,1fr) 120px 110px auto;align-items:center;gap:14px;padding:13px 8px;border-bottom:1px solid #edf1f7}
+.user-row:last-child{border-bottom:0}.user-main{display:flex;align-items:center;gap:11px;min-width:0}.user-avatar{width:38px;height:38px;border-radius:11px;background:#edf4ff;color:#0754b8;display:grid;place-items:center;font-weight:900}.user-main strong{display:block;color:#23477e;font-size:13px}.user-main span{display:block;color:#7b8ba5;font-size:11px;margin-top:3px}.user-status{font-size:11px;font-weight:800;text-align:center;padding:7px 8px;border-radius:999px}.user-status.ready{background:#eaf8f0;color:#16834b}.user-status.pending{background:#fff4dc;color:#9a6500}.status-action{border:0;cursor:pointer;font:inherit}.status-action:hover{filter:brightness(.96);box-shadow:0 5px 12px rgba(22,131,75,.15);transform:translateY(-1px)}.remove-user{border:1px solid #e3b8c1;background:#fff4f6;color:#b20b2c;border-radius:8px;padding:8px 10px;font-weight:800;cursor:pointer}.remove-user:hover{background:#ffe7ec}@media(max-width:900px){.admin-stats{grid-template-columns:repeat(2,1fr)}.user-row{grid-template-columns:1fr 110px}.user-row .user-status,.user-row .remove-user{justify-self:start}}@media(max-width:600px){.admin-stats{grid-template-columns:1fr}.user-row{grid-template-columns:1fr}.user-password{justify-self:start}}
+</style>
